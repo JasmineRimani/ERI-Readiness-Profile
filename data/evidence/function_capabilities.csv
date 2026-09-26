@@ -1,0 +1,15 @@
+function,required_capability_key,note
+co2_removal,CO2_REMOVAL,Separate removal from reduction
+co2_reduction,CO2_REDUCTION,Requires its own function even when supplied by multifunction hardware
+o2_generation,OXYGEN_GENERATION,Generation is distinct from storage
+o2_storage,OXYGEN_STORAGE,Storage must not be interpreted as an electrolyser requirement
+water_processing,WATER_PROCESSING,Treatment is distinct from storage
+water_storage,WATER_STORAGE,Storage must not be interpreted as a water processor requirement
+urine_processing,URINE_PROCESSING,Urine processing function
+brine_processing,BRINE_DEWATERING,Brine processing function
+humidity_control,TEMPERATURE_HUMIDITY_CONTROL,Humidity control function
+tccs,TRACE_CONTAMINANT_CONTROL,Trace contaminant control function
+monitoring_atmosphere,CABIN_AIR_MONITORING,Cabin monitoring function
+water_polishing,WATER_PROCESSING,Polishing is a treatment step separate from storage
+monitoring_trace_gas,CABIN_AIR_MONITORING,Trace-gas instrument route requires pollutant-specific range and sensitivity review
+water_disinfection,WATER_PROCESSING,Disinfection requires organism-specific performance review distinct from bulk water recovery

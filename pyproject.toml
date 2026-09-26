@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eri-readiness-profile"
+version = "1.0.0"
+description = "Ecosystem-readiness profiles for early-phase ECLSS design"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "Apache-2.0 (code); CC-BY-4.0 (data)"}
+authors = [{name = "Jasmine Rimani", email = "jasmine.rimani@polito.it"}]
+keywords = ["ECLSS", "life support", "technology readiness", "industrial ecosystem", "systems engineering", "POMDP"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = ["numpy>=1.24", "pandas>=2.0", "matplotlib>=3.7", "pyyaml>=6.0"]
+
+[project.scripts]
+eri-profile = "eri.cli:main"
+
+[tool.setuptools]
+packages = ["eri", "eri.data"]
+include-package-data = false
+
+[tool.setuptools.package-dir]
+eri = "src/eri"
+"eri.data" = "data"
+
+[tool.setuptools.package-data]
+"eri.data" = ["*.yaml", "*.csv", "LICENSE", "engineering_snapshot/*.csv", "engineering_snapshot/*.json",
+              "evidence/*.csv", "evidence/*.json"]

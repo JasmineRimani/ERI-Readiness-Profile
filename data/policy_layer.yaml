@@ -1,0 +1,86 @@
+# =============================================================================
+# policy_layer.yaml - rules of the policy layer and its empty input slots
+# =============================================================================
+# WHAT THIS FILE IS
+#   The declared rules that turn the readiness profile into decision tables:
+#   when a requirement counts as a documented shortfall, which action class
+#   each evidence state and each work package belongs to, and how evidence age
+#   is reported. It also registers the input tables that exist but hold no
+#   data yet, so the policy layer can say what is missing instead of guessing.
+#
+# READ BY
+#   src/eri/policy_layer.py
+#
+# RULES
+#   - Every rule below is an analyst rule or mapping and is flagged as such.
+#   - No threshold is set where the author has not chosen one: evidence ages
+#     are reported, and nothing is flagged as stale, until stale_after_years
+#     is set.
+# =============================================================================
+schema_version: 1
+
+shortfall_rule:
+  status: analyst_rule
+  statement: >-
+    A requirement is a documented shortfall in the reviewed scope only when no
+    route of any kind is recorded for the function in the pool AND the search
+    log holds at least min_absence_searches searches for that function,
+    covering the pool, with result not_found and counts_toward_absence true.
+    Everything else that is not delivery-confirmed stays unknown.
+  min_absence_searches: 1
+  pool_regions:
+    Europe: [Europe]
+    Outside Europe: [Worldwide, Outside Europe]
+
+evidence_state_to_action:
+  status: paper_typology
+  supported_at_stated_scope: null
+  unknown: information
+  documented_shortfall_in_reviewed_scope: investment
+
+work_action_class:
+  status: analyst_mapping
+  # Matched in order against the work-package activity name; first match wins.
+  rules:
+  - {pattern: '^01_structure_available$', class: infrastructure, reason: gating infrastructure milestone}
+  - {pattern: '_procure$', class: investment, reason: purchase of equipment in the remaining work}
+  - {pattern: 'support_equipment', class: investment, reason: enabling equipment purchase}
+  - {pattern: '_breadboard$', class: investment, reason: development work}
+  - {pattern: '_relevant_demo$', class: investment, reason: development work}
+  - {pattern: '_adapt$', class: investment, reason: configuration adaptation}
+  - {pattern: '_qualify$', class: investment, reason: configuration verification}
+  - {pattern: 'integrated_acceptance', class: investment, reason: integrated acceptance}
+  - {pattern: '00_design', class: investment, reason: requirements and interface work}
+  - {pattern: 'assess_maturity', class: information, reason: remaining work unknown until assessed}
+  - {pattern: 'restore', class: investment, reason: correction work}
+  shared_resource_is_infrastructure_dependency: true
+
+evidence_age:
+  status: author_decision_pending
+  stale_after_years: null
+
+templates:
+  tender_lead_times:
+    file: evidence/tender_lead_times.csv
+    holds: Procurement notices and awards with their dates, to replace analyst procurement durations
+    intended_sources: TED award notices; ANAC open data (BDNCP); the HUMANS tenders themselves
+  expert_elicitation:
+    file: evidence/expert_elicitation.csv
+    holds: Documented expert ranges for adaptation, qualification and lead times, one row per expert and question
+    intended_sources: industrial partners and suppliers, following EFSA (2014) guidance on expert knowledge elicitation
+  technology_materials:
+    file: evidence/technology_materials.csv
+    holds: Key materials of each technology (catalysts, membranes, sorbents), each with its source
+    intended_sources: technology papers in the author library
+  critical_raw_materials:
+    file: evidence/critical_raw_materials.csv
+    holds: EU strategic and critical raw materials lists
+    intended_sources: Regulation (EU) 2024/1252 (Critical Raw Materials Act), Annexes I and II
+  test_services:
+    file: evidence/test_services.csv
+    holds: Test services the work packages need, with provider, access model and lead time
+    intended_sources: MERIL portal; ESA test centre; providers named in references/standards_and_test_methods.csv
+  reference_class_programmes:
+    file: evidence/reference_class_programmes.csv
+    holds: Observed cost and schedule growth of comparable programmes, for base rates
+    intended_sources: GAO, NASA Assessments of Major Projects (latest GAO-26-108556)

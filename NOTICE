@@ -1,0 +1,15 @@
+Ecosystem-readiness profile (ERI) for early-phase ECLSS design
+Copyright 2026 Politecnico di Torino
+
+Source code (src/, scripts/, tests/) is licensed under the Apache License,
+Version 2.0 (LICENSE).
+
+Data tables and documentation (data/, docs/) are licensed under the Creative
+Commons Attribution 4.0 International licence (data/LICENSE). Please cite the
+paper listed in CITATION.cff when you use them.
+
+The engineering values in data/engineering_snapshot/ are recorded outputs of
+the ECLSS sizing and lander closure models used for the paper. Those models,
+the TRIS technology-roadmapping tool and the HyCost cost models are not part
+of this release. Organisation names and catalogue record identifiers in the
+supplier catalogue and route register are pseudonymised.

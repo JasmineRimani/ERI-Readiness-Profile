@@ -1,0 +1,149 @@
+# =============================================================================
+# instrument_register.yaml - which programme instrument closes which gap
+# =============================================================================
+# WHAT THIS FILE IS
+#   The gap-to-action typology of the paper, made concrete. Each unresolved
+#   condition in the readiness profile belongs to one action class
+#   (information, investment, infrastructure); each class lists instruments a
+#   programme or funding body already has, with the legal or programme text
+#   that defines them and any minimum time the text itself sets.
+#
+# READ BY
+#   src/eri/policy_layer.py -> load_instruments(), classify_gaps(), tag_work()
+#
+# RULES
+#   - `basis` cites the text that defines the instrument. Instruments that are
+#     plain practice (a request for information, a supplier audit) carry
+#     basis: null and basis_status: definitional. Nothing is dressed up as law.
+#   - `minimum_days` is filled only where the cited text sets a minimum.
+#     Otherwise it stays null with the reason in minimum_days_status.
+#   - Directive quotes were checked on 2026-09-26 against the consolidated copy
+#     at legislation.gov.uk/eudr/2014/24; the EUR-Lex CELEX URL is the reference.
+#   - Owners are the paper's typology (Table 1), flagged paper_typology.
+# =============================================================================
+schema_version: 1
+reviewed: '2026-09-26'
+classes:
+  information:
+    responds_to: requirement in the unknown evidence state
+    changes: what the programme knows, not the design or the supply base
+    owner: Programme office with suppliers
+    owner_status: paper_typology
+  investment:
+    responds_to: documented shortfall, or remaining development and delivery work
+    changes: the state of the technology or of the supply base
+    owner: Programme with its funding body
+    owner_status: paper_typology
+  infrastructure:
+    responds_to: dependency on the structure, a test facility or a shared resource
+    changes: the resources the work depends on
+    owner: Host institution or facility owner
+    owner_status: paper_typology
+instruments:
+- id: PMC
+  class: information
+  name: Preliminary market consultation
+  basis: Directive 2014/24/EU, Article 40
+  basis_quote: Before launching a procurement procedure, contracting authorities may conduct market consultations with a view to preparing the procurement and informing economic operators of their procurement plans and requirements.
+  basis_status: legal_text
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0024
+  minimum_days: null
+  minimum_days_status: none_set_in_article
+- id: RFI
+  class: information
+  name: Request for information to named suppliers
+  basis: null
+  basis_status: definitional
+  url: null
+  minimum_days: null
+  minimum_days_status: not_applicable
+- id: AUDIT
+  class: information
+  name: Supplier audit or configuration review
+  basis: null
+  basis_status: definitional
+  url: null
+  minimum_days: null
+  minimum_days_status: not_applicable
+- id: SIMILARITY
+  class: information
+  name: Similarity assessment of an industrial product against the space delta
+  basis: data/references/space_delta_screening_criteria.csv (17 gates, repository register)
+  basis_status: repository_register
+  url: null
+  minimum_days: null
+  minimum_days_status: not_applicable
+- id: OPEN
+  class: investment
+  name: Open procedure for supplies or services
+  basis: Directive 2014/24/EU, Article 27
+  basis_quote: 35 days from the date on which the contract notice was sent; reducible to 15 days with a prior information notice meeting Article 27(2), or to 15 days in a duly substantiated state of urgency (Article 27(3)).
+  basis_status: legal_text
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0024
+  minimum_days: 35
+  minimum_days_status: stated_in_source
+- id: RESTRICTED
+  class: investment
+  name: Restricted procedure
+  basis: Directive 2014/24/EU, Article 28
+  basis_quote: The minimum time limit for receipt of requests to participate shall be 30 days ... The minimum time limit for the receipt of tenders shall be 30 days from the date on which the invitation to tender was sent.
+  basis_status: legal_text
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0024
+  minimum_days: 60
+  minimum_days_status: stated_in_source (30 days for requests to participate plus 30 days for tenders, before reductions)
+- id: INNOVATION-PARTNERSHIP
+  class: investment
+  name: Innovation partnership
+  basis: Directive 2014/24/EU, Article 31
+  basis_quote: In the procurement documents, the contracting authority shall identify the need for an innovative product, service or works that cannot be met by purchasing products, services or works already available on the market.
+  basis_status: legal_text
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0024
+  minimum_days: null
+  minimum_days_status: not_extracted
+- id: PCP
+  class: investment
+  name: Pre-commercial procurement of R&D services
+  basis: 'European Commission, COM(2007) 799 final, Pre-commercial Procurement: Driving innovation to ensure sustainable high quality public services in Europe'
+  basis_status: policy_communication
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52007DC0799
+  minimum_days: null
+  minimum_days_status: not_extracted
+- id: GSTP
+  class: investment
+  name: ESA General Support Technology Programme activity
+  basis: ESA optional programme; example life-support activity G617-241TAjj in data/references/esa_activities_lifesupport.csv
+  basis_status: programme_record
+  url: null
+  minimum_days: null
+  minimum_days_status: not_extracted
+  note: Search MIN-01 found no life-support activity in the GSTP Element 1 Compendia 2026-2028.
+- id: FACILITY-ACCESS
+  class: infrastructure
+  name: Test facility access agreement
+  basis: null
+  basis_status: definitional
+  url: null
+  minimum_days: null
+  minimum_days_status: not_applicable
+  note: Providers and lead times belong in evidence/test_services.csv, which is empty.
+- id: SECOND-BENCH
+  class: infrastructure
+  name: Additional development bench or test resource
+  basis: null
+  basis_status: definitional
+  url: null
+  minimum_days: null
+  minimum_days_status: not_applicable
+- id: GATE-PROTECT
+  class: infrastructure
+  name: Protection of a gating milestone (for HUMANS, the structure)
+  basis: null
+  basis_status: definitional
+  url: null
+  minimum_days: null
+  minimum_days_status: not_applicable
+national_procurement:
+  HUMANS:
+    contracting_authority: Politecnico di Torino
+    framework: Italian public contracts code (D.Lgs. 36/2023)
+    status: applicability, thresholds and time limits to confirm with the PoliTO procurement office; nothing extracted

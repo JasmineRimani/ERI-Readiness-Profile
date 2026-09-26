@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software or its data, please cite the paper below."
+title: "Ecosystem-readiness profile (ERI) for early-phase ECLSS design"
+type: software
+version: 1.0.0
+license: Apache-2.0
+authors:
+  - family-names: Rimani
+    given-names: Jasmine
+    affiliation: Politecnico di Torino
+keywords:
+  - ECLSS
+  - industrial ecosystem
+  - technology readiness
+  - systems engineering
+preferred-citation:
+  type: conference-paper
+  title: "Ecosystem-Aware Design: Formalizing Programmatic Fragility in Early-Phase ECLSS Sizing for Human Lunar Missions"
+  authors:
+    - family-names: Rimani
+      given-names: Jasmine
+      affiliation: "Department of Management and Production Engineering (DIGEP), Politecnico di Torino"
+    - family-names: Luccisano
+      given-names: Giacomo
+      affiliation: "Department of Mechanical and Aerospace Engineering (DIMEAS), Politecnico di Torino"
+    - family-names: Narducci
+      given-names: Giuseppe
+      affiliation: "Department of Mechanical and Aerospace Engineering (DIMEAS), Politecnico di Torino"
+    - family-names: Fusaro
+      given-names: Roberta
+      affiliation: "Department of Mechanical and Aerospace Engineering (DIMEAS), Politecnico di Torino"
+    - family-names: Viola
+      given-names: Nicole
+      affiliation: "Department of Management and Production Engineering (DIGEP), Politecnico di Torino"
+  collection-title: "Proceedings of the 77th International Astronautical Congress (IAC)"
+  conference:
+    name: "77th International Astronautical Congress (IAC)"
+    city: Antalya
+    country: TR
+    date-start: 2026-10-05
+    date-end: 2026-10-09
+  publisher:
+    name: International Astronautical Federation (IAF)
+  number: "IAC-26,D3,3,4,x109477"
+  year: 2026

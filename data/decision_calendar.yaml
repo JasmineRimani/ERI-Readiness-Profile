@@ -1,0 +1,126 @@
+# =============================================================================
+# decision_calendar.yaml - dated funding and programme decisions
+# =============================================================================
+# WHAT THIS FILE IS
+#   The decision points that sit on the same time axis as the implementation
+#   roadmaps: ESA Councils at Ministerial Level (subscriptions to optional
+#   programmes) and the HUMANS funding and procurement milestones. The policy
+#   layer counts the decision points that fall inside each implementation path
+#   (funding-cycle exposure). A path that crosses a decision depends on renewed
+#   commitment as well as on technical progress.
+#
+# READ BY
+#   src/eri/policy_layer.py -> load_calendar(), funding_cycle_exposure()
+#
+# RULES
+#   - Every dated event cites the page that states the date.
+#   - A date that no source states stays null. `date_status` says why:
+#       stated_in_source            day and month given by the source
+#       year_only_in_source         the source gives the year only
+#       not_announced_in_reviewed_sources
+#       author_input_required       only the project team can supply it
+#   - An event with a null date that could fall inside a path makes the
+#     exposure a LOWER BOUND, never zero.
+#   - HUMANS structure, procurement release and readiness window are NOT
+#     repeated here: they live in capability_planning.yaml (source
+#     HUMANS-USER-2026-09-21) and the policy layer reads them from there.
+#   - applies_to is a modelling choice (which decisions govern which case),
+#     flagged analyst_mapping.
+# =============================================================================
+schema_version: 1
+reviewed: '2026-09-26'
+applies_to_status: analyst_mapping
+events:
+- id: ESA-CM12
+  body: ESA Council at Ministerial Level
+  place: Naples
+  date_start: null
+  date_end: null
+  year: 2012
+  date_status: year_only_in_source
+  source: ESA, Ministerial Council over the years
+  url: https://www.esa.int/About_Us/Ministerial_Council_2012/Ministerial_Council_over_the_years
+  applies_to: [HLS_SORTIE]
+- id: ESA-CM14
+  body: ESA Council at Ministerial Level
+  place: Luxembourg
+  date_start: '2014-12-02'
+  date_end: '2014-12-02'
+  year: 2014
+  date_status: stated_in_source
+  source: ESA, Ministerial Council Meetings (Law at ESA)
+  url: https://www.esa.int/About_Us/Law_at_ESA/Ministerial_Council_Meetings2
+  applies_to: [HLS_SORTIE]
+- id: ESA-CM16
+  body: ESA Council at Ministerial Level
+  place: Lucerne
+  date_start: '2016-12-01'
+  date_end: '2016-12-02'
+  year: 2016
+  date_status: stated_in_source
+  source: ESA, Call for Media, ESA Council meeting at ministerial level, Lucerne, Switzerland, 1-2 December 2016
+  url: https://www.esa.int/About_Us/Ministerial_Council_2016/Call_for_Media_ESA_Council_meeting_at_ministerial_level_Lucerne_Switzerland_1_2_December_2016
+  applies_to: [HLS_SORTIE]
+- id: ESA-CM19
+  body: ESA Council at Ministerial Level (Space19+)
+  place: Seville
+  date_start: '2019-11-27'
+  date_end: '2019-11-28'
+  year: 2019
+  date_status: stated_in_source
+  source: ESA Newsroom calendar, ESA Council at Ministerial Level
+  url: https://www.esa.int/Newsroom/Calendar/ESA_Council_at_Ministerial_Level2
+  applies_to: [HLS_SORTIE]
+- id: ESA-CM22
+  body: ESA Council at Ministerial Level
+  place: Paris
+  date_start: '2022-11-22'
+  date_end: '2022-11-23'
+  year: 2022
+  date_status: stated_in_source
+  source: ESA, Ministerial Council Meetings (Law at ESA)
+  url: https://www.esa.int/About_Us/Law_at_ESA/Ministerial_Council_Meetings2
+  applies_to: [HLS_SORTIE]
+- id: ESA-CM25
+  body: ESA Council at Ministerial Level
+  place: Bremen
+  date_start: '2025-11-26'
+  date_end: '2025-11-27'
+  year: 2025
+  date_status: stated_in_source
+  source: ESA, Ministerial Council 2025
+  url: https://www.esa.int/About_Us/Ministerial_Council_2025
+  applies_to: [HLS_SORTIE]
+- id: ESA-CM-NEXT
+  body: ESA Council at Ministerial Level, the one after CM25
+  place: null
+  date_start: null
+  date_end: null
+  year: null
+  date_status: not_announced_in_reviewed_sources
+  source: No date found in ESA pages reviewed on 2026-09-26
+  url: null
+  applies_to: [HLS_SORTIE]
+  note: The observed intervals between the dated councils above are data; they are not used to predict this date.
+- id: HUMANS-FUNDING
+  body: HUMANS funding decisions (budget commitments, calls, renewals)
+  place: null
+  date_start: null
+  date_end: null
+  year: null
+  date_status: author_input_required
+  source: Not in the repository
+  url: null
+  applies_to: [HUMANS]
+  note: Add one event per decision, with its date and document, when known.
+- id: HUMANS-PROCUREMENT
+  body: HUMANS procurement notices and awards (structure, ECLSS equipment)
+  place: null
+  date_start: null
+  date_end: null
+  year: null
+  date_status: author_input_required
+  source: Not in the repository
+  url: null
+  applies_to: [HUMANS]
+  note: Add one event per tender notice and award. These also feed evidence/tender_lead_times.csv.

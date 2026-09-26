@@ -1,0 +1,341 @@
+# Public release copy: exploratory POMDP handoff removed; source notes without supplier names.
+schema_version: 1
+status: capability_planning_with_separate_evidence_and_analyst_scenarios
+source_register: evidence/capability_sources.json
+route_file: evidence/capability_routes.csv
+scope: European routes first; worldwide alternatives separately; food, urine and brine excluded from current architecture
+  scope
+recovery_reference:
+  air: 0.4
+  water: 0.95
+recovery_shortfall: 0.1
+assessed_trl_stress:
+  air: 4
+  water: 3
+factors:
+- air_recovery
+- water_recovery
+- air_maturity
+- water_maturity
+- supplier_delay
+- shared_service
+supplier_delay_days:
+- 60
+- 180
+supplier_delay_status: analyst_scenario_not_observed_lead_time
+chain_by_function:
+  co2_removal: air
+  o2_generation: air
+  co2_reduction: air
+  water_processing: water
+function_dependencies:
+  co2_reduction:
+  - co2_removal
+  - o2_generation
+  water_processing:
+  - water_polishing
+shared_services:
+  air_vent:
+  - co2_removal
+  - o2_generation
+  water_service:
+  - water_processing
+  - water_polishing
+cases:
+  HLS_SORTIE:
+    start_date: '2027-01-01'
+    need_date: '2028-01-01'
+    date_status: analyst_scenario_not_approved_baseline
+    required_functions:
+    - co2_removal
+    - o2_generation
+    - co2_reduction
+    - water_processing
+    - humidity_control
+    - tccs
+    - monitoring_atmosphere
+    - water_polishing
+    full_capability: regenerative_lander_support
+    extra_water_reserve_kg: 2.0
+    extra_wet_mass_reserve_kg: 10.0
+    margin_status: analyst_scenario_not_verified_capacity
+    scenario_assessed_trl:
+      air: 6
+      water: 5
+    configuration_assessed_trl:
+      air: null
+      water: null
+    maturity_status: scenario_levels_are_not_assigned_TRLs_of_selected_equipment
+    work_profiles:
+      design:
+        days:
+        - 30
+        - 90
+        cost_keur:
+        - 15
+        - 45
+        status: analyst_scenario
+        source_id: ''
+        resource: ''
+      procure:
+        days:
+        - 90
+        - 270
+        cost_keur:
+        - 0
+        - 0
+        status: analyst_scenario
+        source_id: ''
+        resource: ''
+      breadboard:
+        days:
+        - 90
+        - 240
+        cost_keur:
+        - 30
+        - 90
+        status: analyst_scenario
+        source_id: ''
+        resource: development_bench
+      relevant_demo:
+        days:
+        - 60
+        - 180
+        cost_keur:
+        - 20
+        - 60
+        status: analyst_scenario
+        source_id: ''
+        resource: development_bench
+      adapt:
+        days:
+        - 30
+        - 90
+        cost_keur:
+        - 10
+        - 30
+        status: analyst_scenario
+        source_id: ''
+        resource: ''
+      qualification:
+        days:
+        - 30
+        - 90
+        cost_keur:
+        - 20
+        - 60
+        status: analyst_scenario
+        source_id: ''
+        resource: test_facility
+      integration:
+        days:
+        - 30
+        - 90
+        cost_keur:
+        - 20
+        - 60
+        status: analyst_scenario
+        source_id: ''
+        resource: test_facility
+      resource_redesign:
+        days:
+        - 30
+        - 120
+        cost_keur:
+        - 10
+        - 40
+        status: analyst_scenario
+        source_id: ''
+        resource: ''
+      restore_service:
+        days:
+        - 10
+        - 60
+        cost_keur:
+        - 5
+        - 30
+        status: analyst_scenario
+        source_id: ''
+        resource: ''
+    resources:
+      development_bench:
+        available_after_days:
+        - 0
+        - 0
+        status: analyst_scenario
+        source_id: ''
+      test_facility:
+        available_after_days:
+        - 60
+        - 180
+        status: analyst_scenario
+        source_id: ''
+    holding_keur_per_day: 2.4657534246575343
+    water_supply_keur_per_kg:
+    - 0.01
+    - 0.05
+    money_status: illustrative_constant_kEUR; no procurement price estimate
+    correction_cash_reserve_keur: 200
+    maximum_decision_days: 120
+  HUMANS:
+    start_date: '2027-01-01'
+    start_date_status: analyst_scenario_for_preparatory_work
+    need_date: null
+    need_window:
+    - '2029-01-01'
+    - '2029-03-31'
+    need_label: Q1 2029; ready with integration and testing completed
+    date_status: author_provided_quarter_target_not_confirmed_delivery
+    programme_source: HUMANS-USER-2026-09-21
+    structure:
+      available_by: '2027-12-31'
+      procurement_not_before: '2028-01-01'
+      status: project_target
+      source_id: HUMANS-USER-2026-09-21
+      scope: Structure available by end 2027, then equipment purchase, integration and testing.
+      cost_status: structure_cost_outside_development_and_testing_scope
+    required_functions:
+    - co2_removal
+    - o2_generation
+    - co2_reduction
+    - water_processing
+    - humidity_control
+    - tccs
+    - monitoring_atmosphere
+    - water_polishing
+    full_capability: crew_support_and_air_water_experiments
+    extra_water_reserve_kg: 20.0
+    extra_wet_mass_reserve_kg: null
+    margin_status: analyst_scenario_not_verified_capacity
+    scenario_assessed_trl:
+      air: 5
+      water: 4
+    configuration_assessed_trl:
+      air: null
+      water: null
+    maturity_status: scenario_levels_are_not_assigned_TRLs_of_selected_equipment
+    work_profiles:
+      design:
+        days:
+        - 10
+        - 30
+        cost_keur:
+        - 15
+        - 45
+        status: analyst_scenario
+        source_id: ''
+        resource: ''
+      procure:
+        days:
+        - 30
+        - 120
+        cost_keur:
+        - 0
+        - 0
+        status: analyst_scenario
+        source_id: ''
+        resource: ''
+      breadboard:
+        days:
+        - 30
+        - 90
+        cost_keur:
+        - 30
+        - 90
+        status: analyst_scenario
+        source_id: ''
+        resource: development_bench
+      relevant_demo:
+        days:
+        - 20
+        - 60
+        cost_keur:
+        - 20
+        - 60
+        status: analyst_scenario
+        source_id: ''
+        resource: development_bench
+      adapt:
+        days:
+        - 10
+        - 30
+        cost_keur:
+        - 10
+        - 30
+        status: analyst_scenario
+        source_id: ''
+        resource: ''
+      qualification:
+        days:
+        - 10
+        - 30
+        cost_keur:
+        - 20
+        - 60
+        status: analyst_scenario
+        source_id: ''
+        resource: test_facility
+      integration:
+        days:
+        - 13
+        - 26
+        cost_keur:
+        - 20
+        - 60
+        status: analyst_scenario
+        source_id: ''
+        resource: test_facility
+      resource_redesign:
+        days:
+        - 5
+        - 20
+        cost_keur:
+        - 10
+        - 40
+        status: analyst_scenario
+        source_id: ''
+        resource: ''
+      restore_service:
+        days:
+        - 10
+        - 60
+        cost_keur:
+        - 5
+        - 30
+        status: analyst_scenario
+        source_id: ''
+        resource: ''
+    resources:
+      development_bench:
+        available_after_days:
+        - 0
+        - 0
+        status: analyst_scenario
+        source_id: ''
+      test_facility:
+        available_after_days:
+        - 20
+        - 60
+        status: analyst_scenario
+        source_id: ''
+    holding_keur_per_day: 0.1643835616438356
+    water_supply_keur_per_kg:
+    - 0.01
+    - 0.05
+    money_status: illustrative_constant_kEUR; no procurement price estimate
+    correction_cash_reserve_keur: 100
+    maximum_decision_days: 120
+planning_rule: ASAP list schedule with deterministic task priority and single-capacity named resources; not an optimal
+  resource schedule
+cost_scope: development and correction work plus incremental water and holding; hardware procurement prices excluded;
+  not whole-programme cost
+source_interpretation:
+- ESA ACLS reports support a European integrated air-process heritage route. They do not qualify the selected lander
+  or HUMANS configuration.
+- An ESA membrane-experiment report supports a European membrane development route. The older UF/RO report supports
+  a different process route, not the selected membrane performance.
+- A NASA report on a Sabatier development unit gives a non-European alternative. European high-temperature electrolysis
+  requires process redesign assessment, not a direct PEM substitution.
+scope_notes:
+- A reviewed ESA early-R&D impact study supports a staged terrestrial-to-space method only; its food-system costs
+  and dates are not transferred to ECLSS.

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "status": "frozen_output_of_the_live_sizing_models_not_an_independent_measurement",
+  "generated": "2026-09-26",
+  "generator": "scripts/export_engineering_snapshot.py",
+  "description": "Engineering quantities used by the capability work graph and readiness profile. air_recovery/water_recovery = 1 applies the declared recovery shortfall to that chain. vehicle_wet_kg is the upper-retention lander wet mass and is empty for HUMANS.",
+  "units": {
+    "water_kg": "kg",
+    "eclss_kg": "kg",
+    "vehicle_wet_kg": "kg",
+    "power_w": "W",
+    "volume_m3": "m3"
+  },
+  "recovery_assumptions": {
+    "recovery_reference": {
+      "air": 0.4,
+      "water": 0.95
+    },
+    "recovery_shortfall": 0.1
+  },
+  "rows": {
+    "values": 20,
+    "allocations": 48
+  },
+  "engineering_code_digest": "aa083735394f6f5d4ceac16a316d3ddb5b3f3c5b1656847737ea444c4d56a2e4",
+  "engineering_input_digest": "7f05fcefc942452ab76c340792cbe280480d2ab012a64391b57919eb07c0090a"
+}

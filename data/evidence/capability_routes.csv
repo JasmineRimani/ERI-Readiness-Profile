@@ -1,0 +1,10 @@
+route_id,provider_group,provider,region,function,route_kind,source_id,technology_ids,adaptation_gap,catalogue_record_ids,configuration_accepted,delivery_confirmed,delivery_date,lead_days_low,lead_days_high
+EU-R01:co2_removal,EU-R01,Route provider EU-R01,Europe,co2_removal,same_process_heritage,CP-ACLS,T-AR-014,"Case load, interfaces, vent routing and qualification unverified",REC-0091,false,false,,,
+EU-R01:o2_generation,EU-R01,Route provider EU-R01,Europe,o2_generation,same_process_heritage,CP-ACLS,T-AR-014,"Case load, interfaces, vent routing and qualification unverified",REC-0091,false,false,,,
+EU-R01:co2_reduction,EU-R01,Route provider EU-R01,Europe,co2_reduction,same_process_heritage,CP-ACLS,T-AR-014,"Case load, interfaces, vent routing and qualification unverified",REC-0091,false,false,,,
+EU-R02:water_processing,EU-R02,Route provider EU-R02,Europe,water_processing,same_process_development,CP-AQUA,T-WR-009,"Selected feed, complete treatment train, endurance and delivery unverified",REC-0066;REC-0166,false,false,,,
+EU-R03:water_processing,EU-R03,Route provider EU-R03,Europe,water_processing,similar_process_requires_redesign,CP-WATER,,"UF/RO is not FO; selected process, sizing and current industrial continuity unverified",,false,false,,,
+WW-R01:co2_reduction,WW-R01,Route provider WW-R01,Outside Europe,co2_reduction,same_process_development,CP-PCI,T-AR-008,"Development unit; case integration, procurement and delivery unverified",REC-0161,false,false,,,
+EU-R04:o2_generation,EU-R04,Route provider EU-R04,Europe,o2_generation,similar_process_requires_redesign,CP-SOEC,,High-temperature SOEC requires a different thermal/power architecture; not a cabin SPWE substitute,,false,false,,,
+EU-R05:urine_processing,EU-R05,Route provider EU-R05,Europe,urine_processing,research_route,CP-URINIT,,Laboratory unit processes; integrated endurance and commercial supply unverified,,false,false,,,
+EU-R06:water_polishing,EU-R06,Route provider EU-R06,Europe,water_polishing,research_route,CP-BIOWYSE,,Method evidence; complete selected equipment and operating environment unverified,,false,false,,,

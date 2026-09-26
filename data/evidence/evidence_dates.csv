@@ -1,0 +1,577 @@
+record_table,record_id,evidence_date,evidence_year,evidence_date_basis,last_checked,last_checked_basis
+capability_routes,EU-R01:co2_removal,2020,2020,capability_sources.json: source date,2026-09-13,capability_sources.json: review_date
+capability_routes,EU-R01:o2_generation,2020,2020,capability_sources.json: source date,2026-09-13,capability_sources.json: review_date
+capability_routes,EU-R01:co2_reduction,2020,2020,capability_sources.json: source date,2026-09-13,capability_sources.json: review_date
+capability_routes,EU-R02:water_processing,2024,2024,capability_sources.json: source date,2026-09-13,capability_sources.json: review_date
+capability_routes,EU-R03:water_processing,1999-03,1999,capability_sources.json: source date,2026-09-13,capability_sources.json: review_date
+capability_routes,WW-R01:co2_reduction,2024,2024,capability_sources.json: source date,2026-09-13,capability_sources.json: review_date
+capability_routes,EU-R04:o2_generation,2023-06-28,2023,capability_sources.json: source date,2026-09-13,capability_sources.json: review_date
+capability_routes,EU-R05:urine_processing,2024,2024,capability_sources.json: source date,2026-09-13,capability_sources.json: review_date
+capability_routes,EU-R06:water_polishing,2024-09-06,2024,capability_sources.json: source date,2026-09-13,capability_sources.json: review_date
+ecosystem_actors,REC-0001,2023,2023,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0002,2023,2023,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0003,2023,2023,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0004,2023,2023,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0005,2023,2023,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0006,2024,2024,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0007,2024,2024,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0008,2024,2024,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0009,2024,2024,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0010,2024,2024,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0011,2024,2024,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0012,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0013,2024,2024,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0014,2024,2024,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0015,2024,2024,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0016,2024,2024,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0017,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0018,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0019,2020,2020,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0020,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0021,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0022,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0023,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0024,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0025,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0026,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0027,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0028,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0029,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0030,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0031,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0032,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0033,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0034,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0035,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0036,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0037,2026,2026,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0038,2026,2026,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0039,2026,2026,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0040,2012,2012,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0041,2026,2026,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0042,2026,2026,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0043,2006,2006,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0044,2006,2006,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0045,2012,2012,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0046,2006,2006,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0047,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0048,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0049,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0050,2019,2019,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0051,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0052,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0053,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0054,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0055,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0056,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0057,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0058,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0059,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0060,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0061,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0062,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0063,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0064,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0065,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0066,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0067,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0068,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0069,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0070,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0071,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0072,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0073,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0074,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0075,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0076,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0077,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0078,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0079,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0080,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0081,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0082,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0083,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0084,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0085,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0086,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0087,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0088,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0089,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0090,2017,2017,year_in_source_title,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0091,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0092,2010,2010,year_in_source_title,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0093,2007,2007,year_in_source_title,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0094,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0095,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0096,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0097,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0098,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0099,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0100,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0101,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0102,2018,2018,year_in_source_title,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0103,2025,2025,year_in_source_title,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0104,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0105,2025,2025,year_in_source_title,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0106,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0107,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0108,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0109,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0110,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0111,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0112,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0113,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0114,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0115,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0116,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0117,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0118,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0119,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0120,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0121,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0122,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0123,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0124,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0125,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0126,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0127,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0128,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0129,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0130,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0131,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0132,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0133,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0134,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0135,2018,2018,year_in_source_title,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0136,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0137,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0138,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0139,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0140,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0141,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0142,2015,2015,year_in_source_title,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0143,2015,2015,year_in_source_title,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0144,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0145,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0146,,,not_recorded,2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0147,2014,2014,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0148,2021,2021,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0149,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0150,2018,2018,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0151,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0152,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0153,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0154,2017,2017,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0155,2017,2017,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0156,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0157,2021,2021,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0158,2018,2018,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0159,2023,2023,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0160,2017,2017,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0161,2021,2021,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0162,2018,2018,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0163,2017,2017,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0164,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0165,2021,2021,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0166,2017,2017,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0167,2017,2017,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0168,2014,2014,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0169,2018,2018,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0170,2014,2014,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0171,2017,2017,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0172,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0173,2017,2017,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0174,2017,2017,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0175,2017,2017,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0176,2017,2017,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0177,2018,2018,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0178,2017,2017,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0179,2017,2017,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0180,2014,2014,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0181,2017,2017,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0182,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0183,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0184,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0185,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0186,2018,2018,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0187,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0188,2018,2018,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0189,2023,2023,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0190,2023,2023,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0191,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0192,2018,2018,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0193,2018,2018,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0194,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0195,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0196,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0197,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0198,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0199,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0200,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0201,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0202,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0203,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0204,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0205,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0206,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0207,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0208,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0209,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0210,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0211,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0212,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0213,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0214,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0215,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0216,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0217,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0218,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0219,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0220,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0221,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0222,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0223,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0224,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0225,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0226,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0227,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0228,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0229,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0230,2025,2025,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0231,2016,2016,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0232,2026,2026,year_in_source_title,,not_recorded
+ecosystem_actors,REC-0233,,,not_recorded,,not_recorded
+ecosystem_actors,REC-0234,BIOWYSE 687447 2016-2019,2016,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0235,BIOWYSE 687447 2016-2019,2016,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0236,BIOWYSE 687447 2016-2019,2016,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0237,BIOWYSE 687447 2016-2019,2016,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0238,BIOWYSE 687447 2016-2019,2016,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0239,BIOWYSE 687447 2016-2019,2016,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0240,BIOWYSE 687447 2016-2019,2016,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0241,BIOWYSE 687447 2016-2019,2016,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0242,BIOWYSE 687447 2016-2019,2016,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0243,TIME SCALE 640231 2015-2018,2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0244,TIME SCALE 640231 2015-2018,2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0245,TIME SCALE 640231 2015-2018,2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0246,TIME SCALE 640231 2015-2018,2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0247,TIME SCALE 640231 2015-2018,2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0248,TIME SCALE 640231 2015-2018,2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0249,TIME SCALE 640231 2015-2018,2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0250,TIME SCALE 640231 2015-2018,2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0251,SHEE 312747 2013-2015,2013,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0252,SHEE 312747 2013-2015,2013,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0253,SHEE 312747 2013-2015,2013,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0254,SHEE 312747 2013-2015,2013,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0255,SHEE 312747 2013-2015,2013,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0256,MOONWALK 607346 2013-2016,2013,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0257,MOONWALK 607346 2013-2016,2013,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0258,CEADSE 328962 2013-2015,2013,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0259,LUWEX 101081937 2022-2024,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0260,LUWEX 101081937 2022-2024,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0261,LUWEX 101081937 2022-2024,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0262,LUWEX 101081937 2022-2024,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0263,SERENITY 101067017 2022-2024,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0264,ArchiSpace 101183089 2024-2028,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0265,ArchiSpace 101183089 2024-2028,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0266,POLARIN 101130949 2024-2029,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0267,POLARIN 101130949 2024-2029,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0268,RUN4LIFE 730285 2017-2021,2017,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0269,RUN4LIFE 730285 2017-2021,2017,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0270,RUN4LIFE 730285 2017-2021,2017,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0271,RUN4LIFE 730285 2017-2021,2017,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0272,RUN4LIFE 730285 2017-2021,2017,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0273,RUN4LIFE 730285 2017-2021,2017,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0274,RUN4LIFE 730285 2017-2021,2017,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0275,P2GreeN 101081883 2022-2026,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0276,P2GreeN 101081883 2022-2026,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0277,P2GreeN 101081883 2022-2026,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0278,P2GreeN 101081883 2022-2026,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0279,P2GreeN 101081883 2022-2026,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0280,HYDROUSA 776643 2018-2023,2018,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0281,HYDROUSA 776643 2018-2023,2018,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0282,HYDROUSA 776643 2018-2023,2018,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0283,HYDROUSA 776643 2018-2023,2018,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0284,HYDROUSA 776643 2018-2023,2018,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0285,DECIRE-WATER 101182154 2025-2028,2025,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0286,DECIRE-WATER 101182154 2025-2028,2025,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0287,DECIRE-WATER 101182154 2025-2028,2025,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0288,Aqua Gratis 817155 2018,2018,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0289,DDAC 101145402 2024-2025,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0290,C-DAC 101145478 2024-2026,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0291,MICRO-BIO 101018274 2022-2024,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0292,INFARM 739479 2016-2018,2016,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0293,FarMind 967978 2021-2023,2021,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0294,AUTOFARM 190101308 2023-2024,2023,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0295,PLANET FARMS LIFE LIFE19 ENV/IT/000142 2020-2023,2020,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0296,PLANET FARMS LIFE LIFE19 ENV/IT/000142 2020-2023,2020,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0297,PLANET FARMS LIFE LIFE19 ENV/IT/000142 2020-2023,2020,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0298,PLANET FARMS LIFE LIFE19 ENV/IT/000142 2020-2023,2020,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0299,SABANA 727874 2016-2021,2016,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0300,SABANA 727874 2016-2021,2016,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0301,SABANA 727874 2016-2021,2016,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0302,SpiralG 792257 2018-2023,2018,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0303,SpiralG 792257 2018-2023,2018,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0304,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0305,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0306,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0307,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0308,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0309,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0310,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0311,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0312,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0313,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0314,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0315,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0316,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0317,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0318,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0319,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0320,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0321,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0322,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0323,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0324,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0325,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0326,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0327,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0328,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0329,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0330,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0331,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0332,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0333,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0334,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0335,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0336,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0337,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0338,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0339,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0340,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0341,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0342,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0343,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0344,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0345,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0346,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0347,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0348,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0349,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0350,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0351,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0352,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0353,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0354,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0355,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0356,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0357,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0358,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0359,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0360,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0361,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0362,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0363,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0364,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0365,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0366,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0367,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0368,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0369,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0370,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0371,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0372,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0373,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0374,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0375,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0376,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0377,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0378,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0379,2026-09 (page accessed),2026,actor_evidence_mined_2026-09-10.csv: date_or_period (date the product page was accessed),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0380,G617-241TAjj; GSTP; 2022-2023,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0381,EISI_I-2022-00905 / contract 4000138398; Discovery (EISI); ESR 20.06.2024,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0382,contract 4000138398; Discovery; 2022-2024,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0383,21-D-T-OPS-02-c / contract 4000137190; Discovery,,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0384,21-D-T-OPS-02-d / contract 4000136917; Discovery,,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0385,ETD 2020-11 / contract 4000135492; Discovery; closed,2020,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0386,2005-13; Discovery,2005,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0387,contract 4000111890; GSP; 2016,2016,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0388,T314-504MM; TDE; closed,,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0389,T314-504MM; TDE; closed,,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0390,code unknown; Discovery ISRU-DM,,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0391,18_M-HRE-1B; Discovery; 2018,2018,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0392,date not on page; ESA HRE selection,,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0393,ESTEC prototype plant; Metalysis-ESA Grand Challenge closed Dec 2023,2023,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0394,Concordia GWTU operating since 2005; article 02/12/2015; TT story Aug 2022,2005,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0395,article Dec 2024; ESA Spark Funding,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0396,BioMakery completed by 29 Apr 2020; TT story Oct 2021,2020,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0397,Orion ESM (Artemis I onwards); blog 04/04/2022,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0398,Orion ESM; blog 04/04/2022,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0399,21/02/2022; Orion ESM,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0400,Dec 2024; Columbus WOOV repair 27 Feb 2011,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0401,operating; ISRU part since 2023,2023,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0402,undated blog,,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0403,undated blog,,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0404,course 10-21 March 2025,2025,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0405,course 10-21 March 2025,2025,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0406,OSIP 2024; Discovery; code unknown,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0407,OSIP 2024; Discovery; code unknown,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0408,OSIP 2024; Discovery; code unknown,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0409,OSIP 2024; Discovery; code unknown,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0410,OSIP 2024; Discovery; code unknown,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0411,OSIP 2024; Discovery; code unknown,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0412,OSIP 2024; Discovery; code unknown,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0413,OSIP 2024; Discovery; code unknown,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0414,OSIP 2023; Discovery; code unknown,2023,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0415,OSIP 2023; Discovery; code unknown,2023,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0416,OSIP 2023; Discovery; code unknown,2023,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0417,OSIP 2023; Discovery; code unknown,2023,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0418,OSIP October 2022; Discovery; code unknown,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0419,OSIP May 2022; Discovery; code unknown,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0420,OSIP February 2022; Discovery; code unknown,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0421,2001 (status Spring 2000),2001,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0422,2001 (status Spring 2000),2001,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0423,2001 (status Spring 2000),2001,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0424,2001 (status Spring 2000),2001,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0425,2001 (status Spring 2000),2001,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0426,2001 (status Spring 2000),2001,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0427,2001 (status Spring 2000),2001,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0428,2001 (status Spring 2000),2001,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0429,2001 (status Spring 2000),2001,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0430,2001 (status Spring 2000),2001,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0431,2001 (status Spring 2000),2001,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0432,2001 (status Spring 2000),2001,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0433,"2015 (project 2015-2018, H2020 GA 636501)",2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0434,"2015 (project 2015-2018, H2020 GA 636501)",2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0435,"2015 (project 2015-2018, H2020 GA 636501)",2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0436,"2015 (project 2015-2018, H2020 GA 636501)",2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0437,"2015 (project 2015-2018, H2020 GA 636501)",2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0438,"2015 (project 2015-2018, H2020 GA 636501)",2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0439,"2015 (project 2015-2018, H2020 GA 636501)",2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0440,"2015 (project 2015-2018, H2020 GA 636501)",2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0441,"2015 (project 2015-2018, H2020 GA 636501)",2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0442,"2015 (project 2015-2018, H2020 GA 636501)",2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0443,"2015 (project 2015-2018, H2020 GA 636501)",2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0444,"2015 (project 2015-2018, H2020 GA 636501)",2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0445,"2015 (project 2015-2018, H2020 GA 636501)",2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0446,"2015 (project 2015-2018, H2020 GA 636501)",2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0447,"2015 (project 2015-2018, H2020 GA 636501)",2015,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0448,2022,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0449,2022,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0450,2022,2022,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0451,2021,2021,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0452,2021,2021,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0453,2021,2021,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0454,2021,2021,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0455,2010 (ESA contract 20104/06/NL/CP),2010,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0456,2010 (ESA contract 20104/06/NL/CP),2010,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0457,2010 (ESA contract 20104/06/NL/CP),2010,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0458,2010 (ESA contract 20104/06/NL/CP),2010,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0459,2010 (ESA contract 20104/06/NL/CP),2010,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0460,2010 (ESA contract 20104/06/NL/CP),2010,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0461,2010 (ESA contract 20104/06/NL/CP),2010,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0462,2010 (ESA contract 20104/06/NL/CP),2010,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0463,2010 (ESA contract 20104/06/NL/CP),2010,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0464,2023 (workshop Oct 2022),2023,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0465,2023 (workshop Oct 2022),2023,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0466,2023 (workshop Oct 2022),2023,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0467,2023 (workshop Oct 2022),2023,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0468,2023 (workshop Oct 2022),2023,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0469,2023 (workshop Oct 2022),2023,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0470,2023 (workshop Oct 2022),2023,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0471,2026,2026,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0472,2026,2026,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0473,2024,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0474,2024,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0475,2024,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0476,2024,2024,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0477,2013 (study 2009-2012),2013,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0478,2013 (study 2009-2012),2013,actor_evidence_mined_2026-09-10.csv: date_or_period,2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0479,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0480,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0481,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0482,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0483,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0484,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0485,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0486,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0487,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0488,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0489,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0490,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0491,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0492,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0493,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0494,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0495,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0496,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0497,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0498,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0499,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0500,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0501,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0502,author chat session 9 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0503,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0504,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0505,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0506,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0507,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0508,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0509,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0510,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0511,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0512,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0513,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0514,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0515,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0516,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0517,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0518,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0519,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0520,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0521,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0522,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0523,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0524,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0525,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0526,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0527,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0528,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0529,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0530,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0531,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0532,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0533,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0534,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0535,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0536,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0537,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0538,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0539,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0540,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-10,actor_evidence_mined_2026-09-10.csv: source_batch label
+ecosystem_actors,REC-0541,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0542,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0543,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0544,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0545,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0546,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0547,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0548,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0549,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0550,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0551,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0552,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0553,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0554,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0555,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0556,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0557,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0558,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0559,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0560,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0561,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0562,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0563,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0564,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0565,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0566,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date
+ecosystem_actors,REC-0567,author chat session 10 Sep 2026,,actor_evidence_mined_2026-09-10.csv: date_or_period (date the lead was recorded; evidence date not stated),2026-09-14,actor_verification register: retrieved_date

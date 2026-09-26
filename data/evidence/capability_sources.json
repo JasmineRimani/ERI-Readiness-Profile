@@ -1,0 +1,90 @@
+{
+ "review_date": "2026-09-13",
+ "sources": {
+  "CP-NASA-SE": {
+   "title": "NASA Systems Engineering Handbook, Appendix G",
+   "date": "2016",
+   "kind": "NASA_handbook",
+   "url": "https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf",
+   "use": "Configuration-specific maturity, advancement difficulty and remaining development work; no generic TRL-to-duration conversion.",
+   "access": "full_PDF_reviewed"
+  },
+  "CP-ACLS": {
+   "title": "On-orbit Testing of the Advanced Closed Loop System ACLS, ICES-2020-510",
+   "date": "2020",
+   "kind": "ESA_report",
+   "url": "https://hdl.handle.net/2346/86479",
+   "use": "ESA air-process heritage; three-crew configuration and shared-vent constraint at simultaneous four-crew operation; not current supply or lander qualification.",
+   "access": "local_full_PDF_reviewed"
+  },
+  "CP-AQUA": {
+   "title": "Climate science in orbit: Aquamembrane",
+   "date": "2024",
+   "kind": "ESA_experiment_report",
+   "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Climate_science_in_orbit",
+   "use": "Membrane water-processing experiment and ground/space technology route; reported two-year outlook is an expectation at publication, not current availability.",
+   "access": "official_report_reviewed"
+  },
+  "CP-WATER": {
+   "title": "Water Recovery in Space, ESA Bulletin 97",
+   "date": "1999-03",
+   "kind": "ESA_report",
+   "url": "https://www.esa.int/esapub/bulletin/bullet97/tamponne.pdf",
+   "use": "Historical UF/RO route; three 100-hour runs, feed and water-quality limits. Not the same process as the FO hardware proxy.",
+   "access": "full_PDF_reviewed"
+  },
+  "CP-PCI": {
+   "title": "NASA report ICES-2024-156, CO2 conversion systems",
+   "date": "2024",
+   "kind": "NASA_report",
+   "url": "https://ntrs.nasa.gov/api/citations/20240004053/downloads/ICES-2024-156-Final.pdf",
+   "use": "Reports a Sabatier development unit outside Europe; worldwide development alternative, not confirmed delivery.",
+   "access": "indexed_report_extract; direct_PDF_403"
+  },
+  "CP-SOEC": {
+   "title": "High Pressure Water Electrolyser Development for Exploration Surface Missions, final presentation",
+   "date": "2023-06-28",
+   "kind": "ESA_contractor_report",
+   "url": "https://nebula.esa.int/sites/default/files/neb_tec_studies/3268/public/400012888719_Final%20presentation.pdf",
+   "use": "SOEC breadboard route, feedthrough/separator limitations; not interchangeable with low-temperature cabin electrolysis.",
+   "access": "full_PDF_reviewed"
+  },
+  "CP-URINIT": {
+   "title": "Withheld in the public release (public document whose title names an organisation)",
+   "date": "2024",
+   "kind": "ESA_university_report",
+   "url": null,
+   "use": "Laboratory urine-treatment route; about 75 percent RO-step recovery; mission calculation is not an endurance test. Optional scope only.",
+   "access": "indexed_report_extract; direct_PDF_unavailable"
+  },
+  "CP-BIOWYSE": {
+   "title": "BIOWYSE project 687447 results",
+   "date": "2024-09-06",
+   "kind": "EU_report",
+   "url": "https://cordis.europa.eu/project/id/687447/results",
+   "use": "Monitoring/disinfection research and published methods; consortium membership is not complete-unit supply.",
+   "access": "official_record_reviewed"
+  },
+  "CP-PRIORITY": {
+   "title": "Rollock and Klaus, Functional prioritization strategies and tradespace considerations for a self-reliant deep space habitat",
+   "date": "2026",
+   "kind": "peer_reviewed_article",
+   "url": "https://doi.org/10.1016/j.actaastro.2026.01.035",
+   "use": "Function-criticality and Earth-dependence framing; no coefficients imported from unavailable full text.",
+   "access": "publisher_abstract_and_section_extracts",
+   "journal": "Acta Astronautica",
+   "quartile": "Q1",
+   "quartile_year": 2024,
+   "quartile_source": "https://www.iit.comillas.edu/publicacion/info_revista/en/738/Acta_Astronautica"
+  },
+  "CP-BIOCEME": {
+   "title": "Pilot Study on the Impact Assessment of ESA Early R&D Activities: Cellular Agriculture for Future Human Space Missions",
+   "date": "2024-12",
+   "kind": "ESA_hosted_report",
+   "url": "https://space-economy.esa.int/documents/7pqxl0ko1knsZH9IaFGqu1VV4yqjVGHUzt308xRb.pdf",
+   "use": "Distinct ground/space routes and funding-dependent milestones; no food-system dates or costs transferred to ECLSS.",
+   "access": "user_supplied_full_PDF_reviewed"
+  }
+ },
+ "rule": "Evidence of development is separate from present procurement and delivery; all unknown inputs remain explicit."
+}

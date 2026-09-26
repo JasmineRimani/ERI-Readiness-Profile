@@ -1,0 +1,568 @@
+record_id,entity_name,region,capability_key,supplier_scope
+REC-0001,ORG-E001,Europe,INTEGRATED_ECLSS,not_supplier
+REC-0002,ORG-E001,Europe,CO2_REMOVAL,not_supplier
+REC-0003,ORG-E001,Europe,URINE_PROCESSING,not_supplier
+REC-0004,ORG-E001,Europe,PLANT_GROWTH,not_supplier
+REC-0005,ORG-E001,Europe,WATER_PROCESSING,not_supplier
+REC-0006,ORG-E002,Europe,WATER_PROCESSING,development_partner
+REC-0007,ORG-E003,Europe,AIR_PURIFICATION,development_partner
+REC-0008,ORG-E004,Europe,ECLSS_TESTING,research_or_test_only
+REC-0009,ORG-E005,Europe,WATER_PROCESSING,not_supplier
+REC-0010,ORG-E006,Europe,WATER_PROCESSING,not_supplier
+REC-0011,ORG-E007,Europe,FIRE_DETECTION_SUPPRESSION,not_supplier
+REC-0012,ORG-E008,Europe,CABIN_AIR_MONITORING,not_supplier
+REC-0013,ORG-E009,Europe,NOT_APPLICABLE,not_supplier
+REC-0014,ORG-E010,Europe,AIRLOCK,system_integrator
+REC-0015,ORG-E011,Europe,NOT_APPLICABLE,adjacent_industrial_supplier
+REC-0016,ORG-E012,Europe,PLANT_GROWTH,potential_supplier_to_verify
+REC-0017,ORG-E013,Europe,INTEGRATED_ECLSS,not_supplier
+REC-0018,ORG-E014,Europe,ECLSS_TESTING,not_supplier
+REC-0019,ORG-E015,Europe,PLANT_GROWTH,not_supplier
+REC-0020,ORG-E016,Europe,PRESSURISED_HABITAT_INTEGRATION,not_supplier
+REC-0021,ORG-E017,Europe,ECLSS_TESTING,not_supplier
+REC-0022,ORG-E018,Europe,TEMPERATURE_HUMIDITY_CONTROL,historical_supplier
+REC-0023,ORG-E019,Europe,PRESSURISED_HABITAT_INTEGRATION,system_integrator
+REC-0024,ORG-E020,Europe,PLANT_GROWTH,not_supplier
+REC-0025,ORG-E021,Europe,PLANT_GROWTH,potential_supplier_to_verify
+REC-0026,ORG-E022,Europe,NOT_APPLICABLE,not_supplier
+REC-0027,ORG-E023,Europe,NOT_APPLICABLE,not_supplier
+REC-0028,ORG-E024,Europe,INTEGRATED_ECLSS,not_supplier
+REC-0029,ORG-E025,Europe,NOT_APPLICABLE,not_supplier
+REC-0030,ORG-W001,Outside Europe,ECLSS_TESTING,not_supplier
+REC-0031,ORG-W002,Outside Europe,ECLSS_TESTING,not_supplier
+REC-0032,ORG-W003,Outside Europe,ECLSS_TESTING,not_supplier
+REC-0033,ORG-E026,Europe,ECLSS_TESTING,not_supplier
+REC-0034,ORG-W004,Outside Europe,ECLSS_TESTING,not_supplier
+REC-0035,ORG-E027,Europe,ECLSS_TESTING,not_supplier
+REC-0036,ORG-W005,Outside Europe,ECLSS_TESTING,not_supplier
+REC-0037,ORG-W006,Outside Europe,OXYGEN_GENERATION,not_supplier
+REC-0038,ORG-W006,Outside Europe,CO2_REMOVAL,not_supplier
+REC-0039,ORG-E028,Europe,INTEGRATED_ECLSS,not_supplier
+REC-0040,ORG-W006,Outside Europe,CO2_REMOVAL,not_supplier
+REC-0041,ORG-W006,Outside Europe,WATER_PROCESSING,not_supplier
+REC-0042,ORG-W006,Outside Europe,URINE_PROCESSING,not_supplier
+REC-0043,ORG-W006,Outside Europe,TRACE_CONTAMINANT_CONTROL,not_supplier
+REC-0044,ORG-W006,Outside Europe,CABIN_AIR_MONITORING,not_supplier
+REC-0045,ORG-W006,Outside Europe,TEMPERATURE_HUMIDITY_CONTROL,not_supplier
+REC-0046,ORG-W007,Outside Europe,WASTE_PROCESSING,not_supplier
+REC-0047,ORG-W008,Outside Europe,INTEGRATED_ECLSS,not_supplier
+REC-0048,ORG-W009,Outside Europe,PLANT_GROWTH,not_supplier
+REC-0049,ORG-W010,Outside Europe,INTEGRATED_ECLSS,not_supplier
+REC-0050,ORG-W011,Outside Europe,PLANT_GROWTH,not_supplier
+REC-0051,ORG-W012,Outside Europe,INTEGRATED_ECLSS,not_supplier
+REC-0052,ORG-W013,Outside Europe,CABIN_AIR_MONITORING,not_supplier
+REC-0053,ORG-W014,Outside Europe,AIR_PURIFICATION,not_supplier
+REC-0054,ORG-W015,Outside Europe,CABIN_AIR_MONITORING,not_supplier
+REC-0055,ORG-W016,Outside Europe,NOT_APPLICABLE,not_supplier
+REC-0056,ORG-W017,Outside Europe,INTEGRATED_ECLSS,historical_supplier
+REC-0057,ORG-W018,Outside Europe,PLANT_GROWTH,historical_supplier
+REC-0058,ORG-W019,Outside Europe,WATER_PROCESSING,historical_supplier
+REC-0059,ORG-W020,Outside Europe,INTEGRATED_ECLSS,not_supplier
+REC-0060,ORG-W020,Outside Europe,INTEGRATED_ECLSS,not_supplier
+REC-0061,ORG-W021,Outside Europe,INTEGRATED_ECLSS,not_supplier
+REC-0062,ORG-W022,Outside Europe,INTEGRATED_ECLSS,not_supplier
+REC-0063,ORG-W023,Outside Europe,INTEGRATED_ECLSS,not_supplier
+REC-0064,ORG-W024,Outside Europe,PLANT_GROWTH,not_supplier
+REC-0065,ORG-W025,Outside Europe,PLANT_GROWTH,not_supplier
+REC-0066,ORG-E029,Europe,WATER_PROCESSING,component_supplier
+REC-0067,ORG-W026,Outside Europe,INTEGRATED_ECLSS,system_integrator
+REC-0068,ORG-W026,Outside Europe,CO2_REMOVAL,system_integrator
+REC-0069,ORG-W026,Outside Europe,TRACE_CONTAMINANT_CONTROL,system_integrator
+REC-0070,ORG-W026,Outside Europe,OXYGEN_GENERATION,system_integrator
+REC-0071,ORG-W026,Outside Europe,CABIN_AIR_MONITORING,system_integrator
+REC-0072,ORG-W026,Outside Europe,TEMPERATURE_HUMIDITY_CONTROL,system_integrator
+REC-0073,ORG-W026,Outside Europe,WATER_PROCESSING,system_integrator
+REC-0074,ORG-W026,Outside Europe,URINE_PROCESSING,system_integrator
+REC-0075,ORG-W026,Outside Europe,BRINE_DEWATERING,system_integrator
+REC-0076,ORG-W026,Outside Europe,WASTE_COLLECTION,system_integrator
+REC-0077,ORG-W026,Outside Europe,FIRE_DETECTION_SUPPRESSION,system_integrator
+REC-0078,ORG-W027,Outside Europe,INTEGRATED_ECLSS,system_integrator
+REC-0079,ORG-W027,Outside Europe,CO2_REMOVAL,system_integrator
+REC-0080,ORG-W027,Outside Europe,CABIN_AIR_MONITORING,system_integrator
+REC-0081,ORG-W027,Outside Europe,TEMPERATURE_HUMIDITY_CONTROL,system_integrator
+REC-0082,ORG-W027,Outside Europe,WATER_PROCESSING,system_integrator
+REC-0083,ORG-W027,Outside Europe,BRINE_DEWATERING,system_integrator
+REC-0084,ORG-W028,Outside Europe,URINE_PROCESSING,component_supplier
+REC-0085,ORG-W028,Outside Europe,CO2_REMOVAL,component_supplier
+REC-0086,ORG-W029,Outside Europe,TRACE_CONTAMINANT_CONTROL,development_partner
+REC-0087,ORG-W030,Outside Europe,OXYGEN_CONCENTRATION,development_partner
+REC-0088,ORG-E030,Europe,PLANT_GROWTH,development_partner
+REC-0089,ORG-E031,Europe,PLANT_GROWTH,adjacent_industrial_supplier
+REC-0090,ORG-E032,Europe,CO2_REMOVAL,system_integrator
+REC-0091,ORG-E032,Europe,OXYGEN_GENERATION,system_integrator
+REC-0092,ORG-E033,Europe,INTEGRATED_ECLSS,system_integrator
+REC-0093,ORG-E034,Europe,WATER_PROCESSING,development_partner
+REC-0094,ORG-E035,Europe,INTEGRATED_ECLSS,development_partner
+REC-0095,ORG-E036,Europe,INTEGRATED_ECLSS,development_partner
+REC-0096,ORG-E037,Europe,INTEGRATED_ECLSS,development_partner
+REC-0097,ORG-E038,Europe,INTEGRATED_ECLSS,development_partner
+REC-0098,ORG-E039,Europe,INTEGRATED_ECLSS,development_partner
+REC-0099,ORG-E040,Europe,NOT_APPLICABLE,development_partner
+REC-0100,ORG-E041,Europe,OXYGEN_GENERATION,adjacent_industrial_supplier
+REC-0101,ORG-W031,Outside Europe,CO2_REMOVAL,system_integrator
+REC-0102,ORG-W032,Outside Europe,INTEGRATED_ECLSS,system_integrator
+REC-0103,ORG-W033,Outside Europe,PRESSURISED_HABITAT_INTEGRATION,system_integrator
+REC-0104,ORG-W034,Outside Europe,INTEGRATED_ECLSS,development_partner
+REC-0105,ORG-W035,Outside Europe,INTEGRATED_ECLSS,system_integrator
+REC-0106,ORG-W036,Outside Europe,INTEGRATED_ECLSS,system_integrator
+REC-0107,ORG-W037,Outside Europe,NOT_APPLICABLE,component_supplier
+REC-0108,ORG-W038,Outside Europe,INTEGRATED_ECLSS,potential_supplier_to_verify
+REC-0109,ORG-W039,Outside Europe,INTEGRATED_ECLSS,potential_supplier_to_verify
+REC-0110,ORG-W040,Outside Europe,OXYGEN_GENERATION,adjacent_industrial_supplier
+REC-0111,ORG-E042,Europe,ECLSS_TESTING,research_or_test_only
+REC-0112,ORG-E043,Europe,PRESSURISED_HABITAT_INTEGRATION,system_integrator
+REC-0113,ORG-E044,Europe,OXYGEN_CONCENTRATION,component_supplier
+REC-0114,ORG-E045,Europe,OXYGEN_CONCENTRATION,component_supplier
+REC-0115,ORG-E046,Europe,TEMPERATURE_HUMIDITY_CONTROL,component_supplier
+REC-0116,ORG-E047,Europe,PRESSURISED_HABITAT_INTEGRATION,system_integrator
+REC-0117,ORG-E048,Europe,ECLSS_TESTING,research_or_test_only
+REC-0118,ORG-E049,Europe,OXYGEN_GENERATION,adjacent_industrial_supplier
+REC-0119,ORG-E010,Europe,INTEGRATED_ECLSS,development_partner
+REC-0120,ORG-E050,Europe,PLANT_GROWTH,development_partner
+REC-0121,ORG-E051,Europe,ECLSS_TESTING,research_or_test_only
+REC-0122,ORG-E052,Europe,CABIN_AIR_MONITORING,research_or_test_only
+REC-0123,ORG-E053,Europe,PRESSURISED_HABITAT_INTEGRATION,potential_supplier_to_verify
+REC-0124,ORG-E054,Europe,NOT_APPLICABLE,not_supplier
+REC-0125,ORG-E055,Europe,OXYGEN_GENERATION,component_supplier
+REC-0126,ORG-E056,Europe,INTEGRATED_ECLSS,research_or_test_only
+REC-0127,ORG-E057,Europe,INTEGRATED_ECLSS,research_or_test_only
+REC-0128,ORG-E058,Europe,INTEGRATED_ECLSS,research_or_test_only
+REC-0129,ORG-E059,Europe,INTEGRATED_ECLSS,research_or_test_only
+REC-0130,ORG-E060,Europe,NOT_APPLICABLE,not_supplier
+REC-0131,ORG-W041,Outside Europe,INTEGRATED_ECLSS,not_supplier
+REC-0132,ORG-W042,Outside Europe,OXYGEN_GENERATION,not_supplier
+REC-0133,ORG-W042,Outside Europe,CO2_REMOVAL,not_supplier
+REC-0134,ORG-W042,Outside Europe,WATER_PROCESSING,not_supplier
+REC-0135,ORG-W043,Outside Europe,INTEGRATED_ECLSS,not_supplier
+REC-0136,ORG-W044,Outside Europe,INTEGRATED_ECLSS,not_supplier
+REC-0137,ORG-W045,Outside Europe,INTEGRATED_ECLSS,not_supplier
+REC-0138,ORG-W046,Outside Europe,FIRE_DETECTION_SUPPRESSION,development_partner
+REC-0139,ORG-W047,Outside Europe,INTEGRATED_ECLSS,development_partner
+REC-0140,ORG-W048,Outside Europe,INTEGRATED_ECLSS,development_partner
+REC-0141,ORG-W049,Outside Europe,AIR_PURIFICATION,not_supplier
+REC-0142,ORG-E061,Europe,INTEGRATED_ECLSS,not_supplier
+REC-0143,ORG-E062,Europe,PLANT_GROWTH,research_or_test_only
+REC-0144,ORG-E063,Europe,PLANT_GROWTH,research_or_test_only
+REC-0145,ORG-E064,Europe,INTEGRATED_ECLSS,research_or_test_only
+REC-0146,ORG-E065,Europe,PLANT_GROWTH,development_partner
+REC-0147,ORG-W050,Outside Europe,CO2_REMOVAL,component_supplier
+REC-0148,ORG-W051,Outside Europe,CO2_REMOVAL,development_partner
+REC-0149,ORG-W052,Outside Europe,CO2_REMOVAL,component_supplier
+REC-0150,ORG-W053,Outside Europe,CO2_REMOVAL,component_supplier
+REC-0151,ORG-W054,Outside Europe,TRACE_CONTAMINANT_CONTROL,component_supplier
+REC-0152,ORG-W055,Outside Europe,TRACE_CONTAMINANT_CONTROL,component_supplier
+REC-0153,ORG-E066,Europe,TRACE_CONTAMINANT_CONTROL,component_supplier
+REC-0154,ORG-E067,Europe,TRACE_CONTAMINANT_CONTROL,component_supplier
+REC-0155,ORG-W056,Outside Europe,TRACE_CONTAMINANT_CONTROL,component_supplier
+REC-0156,ORG-W057,Outside Europe,TRACE_CONTAMINANT_CONTROL,component_supplier
+REC-0157,ORG-W058,Outside Europe,OXYGEN_GENERATION,development_partner
+REC-0158,ORG-W059,Outside Europe,OXYGEN_GENERATION,development_partner
+REC-0159,ORG-W060,Outside Europe,WASTE_COLLECTION,development_partner
+REC-0160,ORG-E068,Europe,OXYGEN_CONCENTRATION,component_supplier
+REC-0161,ORG-W061,Outside Europe,OXYGEN_GENERATION,development_partner
+REC-0162,ORG-W062,Outside Europe,OXYGEN_GENERATION,component_supplier
+REC-0163,ORG-W063,Outside Europe,OXYGEN_GENERATION,development_partner
+REC-0164,ORG-W064,Outside Europe,OXYGEN_GENERATION,development_partner
+REC-0165,ORG-W065,Outside Europe,BRINE_DEWATERING,development_partner
+REC-0166,ORG-E069,Europe,WATER_PROCESSING,component_supplier
+REC-0167,ORG-W066,Outside Europe,WATER_PROCESSING,development_partner
+REC-0168,ORG-W067,Outside Europe,WATER_PROCESSING,development_partner
+REC-0169,ORG-W068,Outside Europe,PLANT_GROWTH,development_partner
+REC-0170,ORG-W069,Outside Europe,WASTE_PROCESSING,development_partner
+REC-0171,ORG-W070,Outside Europe,WASTE_COLLECTION,development_partner
+REC-0172,ORG-W071,Outside Europe,CABIN_AIR_MONITORING,development_partner
+REC-0173,ORG-W072,Outside Europe,CABIN_AIR_MONITORING,development_partner
+REC-0174,ORG-W073,Outside Europe,CABIN_AIR_MONITORING,system_integrator
+REC-0175,ORG-W074,Outside Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0176,ORG-W075,Outside Europe,CABIN_AIR_MONITORING,development_partner
+REC-0177,ORG-W076,Outside Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0178,ORG-E070,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0179,ORG-E071,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0180,ORG-E072,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0181,ORG-E073,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0182,ORG-W077,Outside Europe,CO2_REMOVAL,development_partner
+REC-0183,ORG-W078,Outside Europe,CO2_REMOVAL,development_partner
+REC-0184,ORG-W079,Outside Europe,PLANT_GROWTH,test_facility
+REC-0185,ORG-W080,Outside Europe,CO2_REMOVAL,system_integrator
+REC-0186,ORG-E074,Europe,CO2_REMOVAL,operator
+REC-0187,ORG-E075,Europe,CO2_REMOVAL,funder
+REC-0188,ORG-W081,Outside Europe,OXYGEN_GENERATION,development_partner
+REC-0189,ORG-W082,Outside Europe,PLANT_GROWTH,development_partner
+REC-0190,ORG-W083,Outside Europe,PLANT_GROWTH,development_partner
+REC-0191,ORG-W084,Outside Europe,URINE_PROCESSING,test_facility
+REC-0192,ORG-W085,Outside Europe,OXYGEN_GENERATION,test_facility
+REC-0193,ORG-W086,Outside Europe,AIR_PURIFICATION,test_facility
+REC-0194,ORG-W087,Outside Europe,ECLSS_TESTING,test_facility
+REC-0195,ORG-W088,Outside Europe,ECLSS_TESTING,test_facility
+REC-0196,ORG-W089,Outside Europe,ECLSS_TESTING,test_facility
+REC-0197,ORG-W090,Outside Europe,ECLSS_TESTING,test_facility
+REC-0198,ORG-E076,Europe,ECLSS_TESTING,test_facility
+REC-0199,ORG-W091,Outside Europe,ECLSS_TESTING,test_facility
+REC-0200,ORG-W092,Outside Europe,ECLSS_TESTING,test_facility
+REC-0201,ORG-W093,Outside Europe,ECLSS_TESTING,test_facility
+REC-0202,ORG-W094,Outside Europe,ECLSS_TESTING,test_facility
+REC-0203,ORG-W095,Outside Europe,ECLSS_TESTING,test_facility
+REC-0204,ORG-E077,Europe,ECLSS_TESTING,test_facility
+REC-0205,ORG-E078,Europe,ECLSS_TESTING,test_facility
+REC-0206,ORG-W096,Outside Europe,ECLSS_TESTING,test_facility
+REC-0207,ORG-E079,Europe,ECLSS_TESTING,test_facility
+REC-0208,ORG-W097,Outside Europe,ECLSS_TESTING,test_facility
+REC-0209,ORG-E080,Europe,ECLSS_TESTING,test_facility
+REC-0210,ORG-E081,Europe,ECLSS_TESTING,test_facility
+REC-0211,ORG-E082,Europe,ECLSS_TESTING,test_facility
+REC-0212,ORG-W098,Outside Europe,ECLSS_TESTING,test_facility
+REC-0213,ORG-W099,Outside Europe,ECLSS_TESTING,test_facility
+REC-0214,ORG-W100,Outside Europe,ECLSS_TESTING,test_facility
+REC-0215,ORG-W101,Outside Europe,ECLSS_TESTING,test_facility
+REC-0216,ORG-W102,Outside Europe,ECLSS_TESTING,test_facility
+REC-0217,ORG-W103,Outside Europe,ECLSS_TESTING,test_facility
+REC-0218,ORG-W104,Outside Europe,ECLSS_TESTING,test_facility
+REC-0219,ORG-W105,Outside Europe,ECLSS_TESTING,test_facility
+REC-0220,ORG-W106,Outside Europe,ECLSS_TESTING,test_facility
+REC-0221,ORG-W107,Outside Europe,ECLSS_TESTING,test_facility
+REC-0222,ORG-W108,Outside Europe,ECLSS_TESTING,test_facility
+REC-0223,ORG-W109,Outside Europe,ECLSS_TESTING,test_facility
+REC-0224,ORG-E083,Europe,ECLSS_TESTING,test_facility
+REC-0225,ORG-E084,Europe,ECLSS_TESTING,test_facility
+REC-0226,ORG-W110,Outside Europe,ECLSS_TESTING,test_facility
+REC-0227,ORG-W111,Outside Europe,ECLSS_TESTING,test_facility
+REC-0228,ORG-W112,Outside Europe,ECLSS_TESTING,test_facility
+REC-0229,ORG-W113,Outside Europe,ECLSS_TESTING,test_facility
+REC-0230,ORG-E085,Europe,ECLSS_TESTING,test_facility
+REC-0231,ORG-W114,Outside Europe,ECLSS_TESTING,test_facility
+REC-0232,ORG-E086,Europe,INTEGRATED_ECLSS,development_partner
+REC-0233,ORG-E087,Europe,INTEGRATED_ECLSS,operator
+REC-0234,ORG-E019,Europe,WATER_PROCESSING,development_partner
+REC-0235,ORG-E088,Europe,CABIN_AIR_MONITORING,research_or_test_only
+REC-0236,ORG-E088,Europe,WATER_PROCESSING,adjacent_industrial_supplier
+REC-0237,ORG-E089,Europe,CABIN_AIR_MONITORING,development_partner
+REC-0238,ORG-E090,Europe,WATER_PROCESSING,component_supplier
+REC-0239,ORG-E091,Europe,WATER_PROCESSING,development_partner
+REC-0240,ORG-E092,Europe,WATER_PROCESSING,research_or_test_only
+REC-0241,ORG-E093,Europe,WATER_PROCESSING,development_partner
+REC-0242,ORG-E094,Europe,WATER_PROCESSING,not_supplier
+REC-0243,ORG-E095,Europe,PLANT_GROWTH,development_partner
+REC-0244,ORG-E096,Europe,PLANT_GROWTH,development_partner
+REC-0245,ORG-E097,Europe,PLANT_GROWTH,development_partner
+REC-0246,ORG-E098,Europe,PLANT_GROWTH,component_supplier
+REC-0247,ORG-E099,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0248,ORG-E100,Europe,PLANT_GROWTH,research_or_test_only
+REC-0249,ORG-E101,Europe,PLANT_GROWTH,research_or_test_only
+REC-0250,ORG-E102,Europe,INTEGRATED_ECLSS,research_or_test_only
+REC-0251,ORG-E051,Europe,PRESSURISED_HABITAT_INTEGRATION,development_partner
+REC-0252,ORG-E103,Europe,PRESSURISED_HABITAT_INTEGRATION,development_partner
+REC-0253,ORG-E104,Europe,PRESSURISED_HABITAT_INTEGRATION,development_partner
+REC-0254,ORG-E105,Europe,PRESSURISED_HABITAT_INTEGRATION,research_or_test_only
+REC-0255,ORG-E106,Europe,ECLSS_TESTING,research_or_test_only
+REC-0256,ORG-E107,Europe,ECLSS_TESTING,development_partner
+REC-0257,ORG-E108,Europe,ECLSS_TESTING,test_facility
+REC-0258,ORG-E109,Europe,PLANT_GROWTH,research_or_test_only
+REC-0259,ORG-E110,Europe,WATER_PROCESSING,development_partner
+REC-0260,ORG-E111,Europe,WATER_PROCESSING,development_partner
+REC-0261,ORG-E112,Europe,CABIN_AIR_MONITORING,development_partner
+REC-0262,ORG-E113,Europe,WATER_PROCESSING,development_partner
+REC-0263,ORG-E114,Europe,PLANT_GROWTH,research_or_test_only
+REC-0264,ORG-E115,Europe,PRESSURISED_HABITAT_INTEGRATION,development_partner
+REC-0265,ORG-E116,Europe,PRESSURISED_HABITAT_INTEGRATION,development_partner
+REC-0266,ORG-E117,Europe,ECLSS_TESTING,operator
+REC-0267,ORG-E118,Europe,ECLSS_TESTING,operator
+REC-0268,ORG-E119,Europe,WASTE_COLLECTION,component_supplier
+REC-0269,ORG-E119,Europe,URINE_PROCESSING,component_supplier
+REC-0270,ORG-E120,Europe,WATER_PROCESSING,component_supplier
+REC-0271,ORG-E121,Europe,URINE_PROCESSING,operator
+REC-0272,ORG-E122,Europe,URINE_PROCESSING,development_partner
+REC-0273,ORG-E123,Europe,URINE_PROCESSING,development_partner
+REC-0274,ORG-E124,Europe,URINE_PROCESSING,development_partner
+REC-0275,ORG-E125,Europe,URINE_PROCESSING,component_supplier
+REC-0276,ORG-E126,Europe,WASTE_COLLECTION,component_supplier
+REC-0277,ORG-E127,Europe,PLANT_GROWTH,development_partner
+REC-0278,ORG-E128,Europe,WATER_PROCESSING,adjacent_industrial_supplier
+REC-0279,ORG-E129,Europe,WATER_PROCESSING,adjacent_industrial_supplier
+REC-0280,ORG-E130,Europe,WATER_PROCESSING,adjacent_industrial_supplier
+REC-0281,ORG-E131,Europe,TRACE_CONTAMINANT_CONTROL,adjacent_industrial_supplier
+REC-0282,ORG-E132,Europe,WATER_PROCESSING,development_partner
+REC-0283,ORG-E133,Europe,WATER_PROCESSING,development_partner
+REC-0284,ORG-W115,Outside Europe,WATER_PROCESSING,development_partner
+REC-0285,ORG-E134,Europe,WATER_PROCESSING,adjacent_industrial_supplier
+REC-0286,ORG-E135,Europe,WATER_PROCESSING,adjacent_industrial_supplier
+REC-0287,ORG-E136,Europe,WATER_PROCESSING,research_or_test_only
+REC-0288,ORG-E137,Europe,WATER_PROCESSING,component_supplier
+REC-0289,ORG-E138,Europe,CO2_REMOVAL,adjacent_industrial_supplier
+REC-0290,ORG-W116,Outside Europe,CO2_REMOVAL,development_partner
+REC-0291,ORG-E139,Europe,CO2_REMOVAL,research_or_test_only
+REC-0292,ORG-E140,Europe,PLANT_GROWTH,component_supplier
+REC-0293,ORG-E141,Europe,PLANT_GROWTH,component_supplier
+REC-0294,ORG-E142,Europe,PLANT_GROWTH,development_partner
+REC-0295,ORG-E143,Europe,PLANT_GROWTH,adjacent_industrial_supplier
+REC-0296,ORG-E144,Europe,PLANT_GROWTH,component_supplier
+REC-0297,ORG-E145,Europe,PLANT_GROWTH,adjacent_industrial_supplier
+REC-0298,ORG-E146,Europe,PLANT_GROWTH,adjacent_industrial_supplier
+REC-0299,ORG-E147,Europe,PLANT_GROWTH,component_supplier
+REC-0300,ORG-E148,Europe,PLANT_GROWTH,development_partner
+REC-0301,ORG-E149,Europe,PLANT_GROWTH,development_partner
+REC-0302,ORG-E150,Europe,PLANT_GROWTH,adjacent_industrial_supplier
+REC-0303,ORG-E151,Europe,PLANT_GROWTH,adjacent_industrial_supplier
+REC-0304,ORG-E152,Europe,CO2_REMOVAL,component_supplier
+REC-0305,ORG-E152,Europe,TEMPERATURE_HUMIDITY_CONTROL,component_supplier
+REC-0306,ORG-E153,Europe,CO2_REMOVAL,adjacent_industrial_supplier
+REC-0307,ORG-E154,Europe,CO2_REMOVAL,adjacent_industrial_supplier
+REC-0308,ORG-E155,Europe,CO2_REMOVAL,component_supplier
+REC-0309,ORG-E156,Europe,CO2_REMOVAL,component_supplier
+REC-0310,ORG-E156,Europe,OXYGEN_CONCENTRATION,component_supplier
+REC-0311,ORG-E157,Europe,CO2_REMOVAL,component_supplier
+REC-0312,ORG-E158,Europe,OXYGEN_GENERATION,component_supplier
+REC-0313,ORG-E159,Europe,OXYGEN_GENERATION,component_supplier
+REC-0314,ORG-E159,Europe,OXYGEN_CONCENTRATION,component_supplier
+REC-0315,ORG-E160,Europe,OXYGEN_GENERATION,component_supplier
+REC-0316,ORG-E161,Europe,OXYGEN_GENERATION,component_supplier
+REC-0317,ORG-E162,Europe,OXYGEN_GENERATION,component_supplier
+REC-0318,ORG-E163,Europe,OXYGEN_GENERATION,component_supplier
+REC-0319,ORG-E164,Europe,OXYGEN_GENERATION,component_supplier
+REC-0320,ORG-E165,Europe,OXYGEN_GENERATION,component_supplier
+REC-0321,ORG-E166,Europe,OXYGEN_CONCENTRATION,component_supplier
+REC-0322,ORG-E167,Europe,OXYGEN_CONCENTRATION,component_supplier
+REC-0323,ORG-E168,Europe,OXYGEN_CONCENTRATION,component_supplier
+REC-0324,ORG-E169,Europe,WATER_PROCESSING,component_supplier
+REC-0325,ORG-E170,Europe,WATER_PROCESSING,component_supplier
+REC-0326,ORG-E171,Europe,WATER_PROCESSING,component_supplier
+REC-0327,ORG-E172,Europe,WATER_PROCESSING,component_supplier
+REC-0328,ORG-E173,Europe,WATER_PROCESSING,component_supplier
+REC-0329,ORG-E174,Europe,BRINE_DEWATERING,component_supplier
+REC-0330,ORG-E175,Europe,BRINE_DEWATERING,component_supplier
+REC-0331,ORG-E176,Europe,BRINE_DEWATERING,component_supplier
+REC-0332,ORG-E177,Europe,URINE_PROCESSING,component_supplier
+REC-0333,ORG-E178,Europe,TRACE_CONTAMINANT_CONTROL,component_supplier
+REC-0334,ORG-E179,Europe,TRACE_CONTAMINANT_CONTROL,component_supplier
+REC-0335,ORG-E180,Europe,TRACE_CONTAMINANT_CONTROL,adjacent_industrial_supplier
+REC-0336,ORG-E181,Europe,AIR_PURIFICATION,component_supplier
+REC-0337,ORG-E182,Europe,AIR_PURIFICATION,component_supplier
+REC-0338,ORG-E183,Europe,AIR_PURIFICATION,component_supplier
+REC-0339,ORG-E184,Europe,TEMPERATURE_HUMIDITY_CONTROL,component_supplier
+REC-0340,ORG-E185,Europe,TEMPERATURE_HUMIDITY_CONTROL,component_supplier
+REC-0341,ORG-E186,Europe,TEMPERATURE_HUMIDITY_CONTROL,component_supplier
+REC-0342,ORG-E187,Europe,TEMPERATURE_HUMIDITY_CONTROL,component_supplier
+REC-0343,ORG-E188,Europe,TEMPERATURE_HUMIDITY_CONTROL,component_supplier
+REC-0344,ORG-E189,Europe,TEMPERATURE_HUMIDITY_CONTROL,component_supplier
+REC-0345,ORG-E190,Europe,TEMPERATURE_HUMIDITY_CONTROL,component_supplier
+REC-0346,ORG-E191,Europe,TEMPERATURE_HUMIDITY_CONTROL,component_supplier
+REC-0347,ORG-E192,Europe,TEMPERATURE_HUMIDITY_CONTROL,component_supplier
+REC-0348,ORG-E193,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0349,ORG-E194,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0350,ORG-E195,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0351,ORG-E196,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0352,ORG-E197,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0353,ORG-E198,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0354,ORG-E199,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0355,ORG-E200,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0356,ORG-E201,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0357,ORG-E202,Europe,CABIN_AIR_MONITORING,adjacent_industrial_supplier
+REC-0358,ORG-E203,Europe,FIRE_DETECTION_SUPPRESSION,component_supplier
+REC-0359,ORG-E204,Europe,FIRE_DETECTION_SUPPRESSION,component_supplier
+REC-0360,ORG-E205,Europe,FIRE_DETECTION_SUPPRESSION,component_supplier
+REC-0361,ORG-E206,Europe,FIRE_DETECTION_SUPPRESSION,component_supplier
+REC-0362,ORG-E207,Europe,FIRE_DETECTION_SUPPRESSION,component_supplier
+REC-0363,ORG-E152,Europe,PRESSURISED_HABITAT_INTEGRATION,system_integrator
+REC-0364,ORG-E208,Europe,PRESSURISED_HABITAT_INTEGRATION,system_integrator
+REC-0365,ORG-E209,Europe,PRESSURISED_HABITAT_INTEGRATION,system_integrator
+REC-0366,ORG-E210,Europe,PRESSURISED_HABITAT_INTEGRATION,component_supplier
+REC-0367,ORG-E211,Europe,ECLSS_TESTING,component_supplier
+REC-0368,ORG-E212,Europe,PRESSURISED_HABITAT_INTEGRATION,component_supplier
+REC-0369,ORG-E213,Europe,ECLSS_TESTING,adjacent_industrial_supplier
+REC-0370,ORG-E214,Europe,PLANT_GROWTH,component_supplier
+REC-0371,ORG-E215,Europe,PLANT_GROWTH,component_supplier
+REC-0372,ORG-E216,Europe,PLANT_GROWTH,component_supplier
+REC-0373,ORG-E217,Europe,PLANT_GROWTH,component_supplier
+REC-0374,ORG-E218,Europe,PLANT_GROWTH,component_supplier
+REC-0375,ORG-E219,Europe,PLANT_GROWTH,component_supplier
+REC-0376,ORG-E220,Europe,WASTE_COLLECTION,component_supplier
+REC-0377,ORG-E221,Europe,WASTE_COLLECTION,component_supplier
+REC-0378,ORG-E222,Europe,WASTE_PROCESSING,component_supplier
+REC-0379,ORG-E223,Europe,WASTE_PROCESSING,component_supplier
+REC-0380,ORG-E224,Europe,WATER_PROCESSING,development_partner
+REC-0381,ORG-E225,Europe,WASTE_PROCESSING,development_partner
+REC-0382,ORG-E226,Europe,WASTE_PROCESSING,development_partner
+REC-0383,ORG-E227,Europe,WATER_PROCESSING,adjacent_industrial_supplier
+REC-0384,ORG-E228,Europe,CO2_REMOVAL,research_or_test_only
+REC-0385,ORG-E229,Europe,PLANT_GROWTH,research_or_test_only
+REC-0386,ORG-E230,Europe,WASTE_PROCESSING,research_or_test_only
+REC-0387,ORG-E022,Europe,ECLSS_TESTING,test_facility
+REC-0388,ORG-E231,Europe,CABIN_AIR_MONITORING,development_partner
+REC-0389,ORG-E232,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0390,ORG-E233,Europe,OXYGEN_GENERATION,development_partner
+REC-0391,ORG-E234,Europe,OXYGEN_GENERATION,development_partner
+REC-0392,ORG-E235,Europe,OXYGEN_GENERATION,development_partner
+REC-0393,ORG-E236,Europe,OXYGEN_GENERATION,adjacent_industrial_supplier
+REC-0394,ORG-E237,Europe,WATER_PROCESSING,component_supplier
+REC-0395,ORG-E238,Europe,CO2_REMOVAL,adjacent_industrial_supplier
+REC-0396,ORG-E060,Europe,WATER_PROCESSING,adjacent_industrial_supplier
+REC-0397,ORG-E239,Europe,OXYGEN_GENERATION,component_supplier
+REC-0398,ORG-E240,Europe,WATER_PROCESSING,component_supplier
+REC-0399,ORG-E241,Europe,TEMPERATURE_HUMIDITY_CONTROL,component_supplier
+REC-0400,ORG-E022,Europe,INTEGRATED_ECLSS,operator
+REC-0401,ORG-E242,Europe,ECLSS_TESTING,test_facility
+REC-0402,ORG-E243,Europe,PLANT_GROWTH,development_partner
+REC-0403,ORG-E244,Europe,URINE_PROCESSING,development_partner
+REC-0404,ORG-E245,Europe,URINE_PROCESSING,research_or_test_only
+REC-0405,ORG-E058,Europe,URINE_PROCESSING,research_or_test_only
+REC-0406,ORG-E246,Europe,PLANT_GROWTH,research_or_test_only
+REC-0407,ORG-E247,Europe,WATER_PROCESSING,research_or_test_only
+REC-0408,ORG-E248,Europe,PLANT_GROWTH,research_or_test_only
+REC-0409,ORG-E249,Europe,WASTE_PROCESSING,research_or_test_only
+REC-0410,ORG-E250,Europe,PLANT_GROWTH,research_or_test_only
+REC-0411,ORG-E251,Europe,PLANT_GROWTH,research_or_test_only
+REC-0412,ORG-E252,Europe,TRACE_CONTAMINANT_CONTROL,research_or_test_only
+REC-0413,ORG-E253,Europe,AIR_PURIFICATION,research_or_test_only
+REC-0414,ORG-E254,Europe,PLANT_GROWTH,research_or_test_only
+REC-0415,ORG-E255,Europe,PLANT_GROWTH,research_or_test_only
+REC-0416,ORG-E256,Europe,PLANT_GROWTH,research_or_test_only
+REC-0417,ORG-E257,Europe,URINE_PROCESSING,research_or_test_only
+REC-0418,ORG-E258,Europe,OXYGEN_GENERATION,research_or_test_only
+REC-0419,ORG-E259,Europe,CO2_REMOVAL,research_or_test_only
+REC-0420,ORG-E260,Europe,PLANT_GROWTH,research_or_test_only
+REC-0421,ORG-E261,Europe,INTEGRATED_ECLSS,funder
+REC-0422,ORG-E262,Europe,ECLSS_TESTING,test_facility
+REC-0423,ORG-E262,Europe,CO2_REMOVAL,historical_supplier
+REC-0424,ORG-E262,Europe,OXYGEN_GENERATION,historical_supplier
+REC-0425,ORG-E074,Europe,CABIN_AIR_MONITORING,funder
+REC-0426,ORG-E263,Europe,WASTE_PROCESSING,development_partner
+REC-0427,ORG-E264,Europe,WASTE_PROCESSING,development_partner
+REC-0428,ORG-E265,Europe,WASTE_PROCESSING,development_partner
+REC-0429,ORG-E266,Europe,WASTE_PROCESSING,development_partner
+REC-0430,ORG-E267,Europe,WASTE_PROCESSING,development_partner
+REC-0431,ORG-E076,Europe,PLANT_GROWTH,development_partner
+REC-0432,ORG-E074,Europe,TEMPERATURE_HUMIDITY_CONTROL,funder
+REC-0433,ORG-E268,Europe,CABIN_AIR_MONITORING,development_partner
+REC-0434,ORG-E113,Europe,PRESSURISED_HABITAT_INTEGRATION,development_partner
+REC-0435,ORG-E269,Europe,PLANT_GROWTH,development_partner
+REC-0436,ORG-E270,Europe,ECLSS_TESTING,operator
+REC-0437,ORG-W117,Outside Europe,ECLSS_TESTING,test_facility
+REC-0438,ORG-E038,Europe,TEMPERATURE_HUMIDITY_CONTROL,development_partner
+REC-0439,ORG-E018,Europe,CABIN_AIR_MONITORING,development_partner
+REC-0440,ORG-E019,Europe,CO2_REMOVAL,development_partner
+REC-0441,ORG-E019,Europe,WASTE_PROCESSING,development_partner
+REC-0442,ORG-E019,Europe,PLANT_GROWTH,development_partner
+REC-0443,ORG-E040,Europe,PRESSURISED_HABITAT_INTEGRATION,component_supplier
+REC-0444,ORG-E040,Europe,PLANT_GROWTH,component_supplier
+REC-0445,ORG-E271,Europe,PLANT_GROWTH,development_partner
+REC-0446,ORG-E272,Europe,PLANT_GROWTH,development_partner
+REC-0447,ORG-E273,Europe,PLANT_GROWTH,operator
+REC-0448,ORG-E015,Europe,ECLSS_TESTING,research_or_test_only
+REC-0449,ORG-E274,Europe,WASTE_PROCESSING,development_partner
+REC-0450,ORG-E275,Europe,PLANT_GROWTH,research_or_test_only
+REC-0451,ORG-E276,Europe,PRESSURISED_HABITAT_INTEGRATION,development_partner
+REC-0452,ORG-E277,Europe,PRESSURISED_HABITAT_INTEGRATION,development_partner
+REC-0453,ORG-E278,Europe,PRESSURISED_HABITAT_INTEGRATION,development_partner
+REC-0454,ORG-W118,Outside Europe,PRESSURISED_HABITAT_INTEGRATION,not_supplier
+REC-0455,ORG-E279,Europe,INTEGRATED_ECLSS,development_partner
+REC-0456,ORG-E074,Europe,INTEGRATED_ECLSS,funder
+REC-0457,ORG-E280,Europe,OXYGEN_GENERATION,research_or_test_only
+REC-0458,ORG-E281,Europe,WATER_PROCESSING,research_or_test_only
+REC-0459,ORG-E282,Europe,URINE_PROCESSING,research_or_test_only
+REC-0460,ORG-E283,Europe,CABIN_AIR_MONITORING,research_or_test_only
+REC-0461,ORG-E284,Europe,CABIN_AIR_MONITORING,research_or_test_only
+REC-0462,ORG-E285,Europe,WASTE_PROCESSING,development_partner
+REC-0463,ORG-E286,Europe,INTEGRATED_ECLSS,component_supplier
+REC-0464,ORG-E287,Europe,INTEGRATED_ECLSS,development_partner
+REC-0465,ORG-E288,Europe,INTEGRATED_ECLSS,not_supplier
+REC-0466,ORG-E289,Europe,PLANT_GROWTH,potential_supplier_to_verify
+REC-0467,ORG-E290,Europe,PLANT_GROWTH,research_or_test_only
+REC-0468,ORG-W119,Outside Europe,PLANT_GROWTH,research_or_test_only
+REC-0469,ORG-W120,Outside Europe,INTEGRATED_ECLSS,research_or_test_only
+REC-0470,ORG-W011,Outside Europe,WASTE_PROCESSING,research_or_test_only
+REC-0471,ORG-E291,Europe,CO2_REMOVAL,historical_supplier
+REC-0472,ORG-E292,Europe,URINE_PROCESSING,development_partner
+REC-0473,ORG-E023,Europe,PLANT_GROWTH,research_or_test_only
+REC-0474,ORG-E009,Europe,PLANT_GROWTH,research_or_test_only
+REC-0475,ORG-E293,Europe,PLANT_GROWTH,funder
+REC-0476,ORG-E294,Europe,PLANT_GROWTH,funder
+REC-0477,ORG-E295,Europe,INTEGRATED_ECLSS,historical_supplier
+REC-0478,ORG-E296,Europe,OXYGEN_GENERATION,system_integrator
+REC-0479,ORG-E297,Europe,WATER_PROCESSING,component_supplier
+REC-0480,ORG-E298,Europe,WATER_PROCESSING,component_supplier
+REC-0481,ORG-E299,Europe,WATER_PROCESSING,component_supplier
+REC-0482,ORG-E300,Europe,WATER_PROCESSING,component_supplier
+REC-0483,ORG-E301,Europe,WASTE_COLLECTION,component_supplier
+REC-0484,ORG-E302,Europe,TEMPERATURE_HUMIDITY_CONTROL,component_supplier
+REC-0485,ORG-E303,Europe,CO2_REMOVAL,adjacent_industrial_supplier
+REC-0486,ORG-E304,Europe,CO2_REMOVAL,adjacent_industrial_supplier
+REC-0487,ORG-E305,Europe,OXYGEN_CONCENTRATION,component_supplier
+REC-0488,ORG-E306,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0489,ORG-E307,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0490,ORG-E308,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0491,ORG-E309,Europe,PLANT_GROWTH,component_supplier
+REC-0492,ORG-E310,Europe,PLANT_GROWTH,component_supplier
+REC-0493,ORG-E311,Europe,PLANT_GROWTH,component_supplier
+REC-0494,ORG-E312,Europe,URINE_PROCESSING,component_supplier
+REC-0495,ORG-E313,Europe,WATER_PROCESSING,component_supplier
+REC-0496,ORG-E314,Europe,PLANT_GROWTH,component_supplier
+REC-0497,ORG-E315,Europe,PLANT_GROWTH,component_supplier
+REC-0498,ORG-E316,Europe,PLANT_GROWTH,component_supplier
+REC-0499,ORG-E317,Europe,BRINE_DEWATERING,component_supplier
+REC-0500,ORG-E318,Europe,WATER_PROCESSING,component_supplier
+REC-0501,ORG-E319,Europe,WATER_PROCESSING,component_supplier
+REC-0502,ORG-E320,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0503,ORG-E321,Europe,AIR_PURIFICATION,component_supplier
+REC-0504,ORG-E322,Europe,AIR_PURIFICATION,component_supplier
+REC-0505,ORG-E323,Europe,WATER_PROCESSING,component_supplier
+REC-0506,ORG-E324,Europe,AIR_PURIFICATION,component_supplier
+REC-0507,ORG-E325,Europe,AIR_PURIFICATION,component_supplier
+REC-0508,ORG-E326,Europe,AIR_PURIFICATION,component_supplier
+REC-0509,ORG-E327,Europe,TRACE_CONTAMINANT_CONTROL,component_supplier
+REC-0510,ORG-E328,Europe,AIR_PURIFICATION,component_supplier
+REC-0511,ORG-E329,Europe,OXYGEN_CONCENTRATION,component_supplier
+REC-0512,ORG-E330,Europe,AIR_PURIFICATION,component_supplier
+REC-0513,ORG-E331,Europe,TEMPERATURE_HUMIDITY_CONTROL,component_supplier
+REC-0514,ORG-E332,Europe,OXYGEN_CONCENTRATION,component_supplier
+REC-0515,ORG-E333,Europe,CO2_REMOVAL,adjacent_industrial_supplier
+REC-0516,ORG-E334,Europe,CO2_REMOVAL,adjacent_industrial_supplier
+REC-0517,ORG-E335,Europe,CO2_REMOVAL,adjacent_industrial_supplier
+REC-0518,ORG-E336,Europe,OXYGEN_GENERATION,component_supplier
+REC-0519,ORG-E337,Europe,OXYGEN_GENERATION,component_supplier
+REC-0520,ORG-E338,Europe,OXYGEN_GENERATION,component_supplier
+REC-0521,ORG-E339,Europe,OXYGEN_GENERATION,component_supplier
+REC-0522,ORG-E340,Europe,OXYGEN_GENERATION,component_supplier
+REC-0523,ORG-E341,Europe,CO2_REMOVAL,adjacent_industrial_supplier
+REC-0524,ORG-E342,Europe,CO2_REMOVAL,adjacent_industrial_supplier
+REC-0525,ORG-E343,Europe,WATER_PROCESSING,component_supplier
+REC-0526,ORG-E344,Europe,WATER_PROCESSING,component_supplier
+REC-0527,ORG-E345,Europe,WATER_PROCESSING,component_supplier
+REC-0528,ORG-E346,Europe,WATER_PROCESSING,component_supplier
+REC-0529,ORG-E347,Europe,WATER_PROCESSING,component_supplier
+REC-0530,ORG-E348,Europe,WATER_PROCESSING,component_supplier
+REC-0531,ORG-E349,Europe,WATER_PROCESSING,component_supplier
+REC-0532,ORG-E350,Europe,WATER_PROCESSING,component_supplier
+REC-0533,ORG-E351,Europe,WATER_PROCESSING,component_supplier
+REC-0534,ORG-E352,Europe,WATER_PROCESSING,component_supplier
+REC-0535,ORG-E353,Europe,WATER_PROCESSING,component_supplier
+REC-0536,ORG-E354,Europe,WATER_PROCESSING,component_supplier
+REC-0537,ORG-E355,Europe,WATER_PROCESSING,component_supplier
+REC-0538,ORG-E356,Europe,WATER_PROCESSING,component_supplier
+REC-0539,ORG-E357,Europe,WATER_PROCESSING,adjacent_industrial_supplier
+REC-0540,ORG-E358,Europe,WATER_PROCESSING,adjacent_industrial_supplier
+REC-0541,ORG-E359,Europe,WATER_PROCESSING,component_supplier
+REC-0542,ORG-E360,Europe,WATER_PROCESSING,component_supplier
+REC-0543,ORG-E361,Europe,WATER_PROCESSING,component_supplier
+REC-0544,ORG-E362,Europe,WATER_PROCESSING,component_supplier
+REC-0545,ORG-E363,Europe,WATER_PROCESSING,component_supplier
+REC-0546,ORG-E364,Europe,WATER_PROCESSING,component_supplier
+REC-0547,ORG-W121,Outside Europe,WATER_PROCESSING,component_supplier
+REC-0548,ORG-E365,Europe,WATER_PROCESSING,adjacent_industrial_supplier
+REC-0549,ORG-E366,Europe,WATER_PROCESSING,adjacent_industrial_supplier
+REC-0550,ORG-E367,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0551,ORG-E368,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0552,ORG-E369,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0553,ORG-E370,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0554,ORG-E371,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0555,ORG-E372,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0556,ORG-E373,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0557,ORG-E374,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0558,ORG-E375,Europe,CABIN_AIR_MONITORING,component_supplier
+REC-0559,ORG-E376,Europe,WATER_PROCESSING,component_supplier
+REC-0560,ORG-E377,Europe,WATER_PROCESSING,component_supplier
+REC-0561,ORG-E378,Europe,WATER_PROCESSING,component_supplier
+REC-0562,ORG-E379,Europe,WATER_PROCESSING,component_supplier
+REC-0563,ORG-E380,Europe,WATER_PROCESSING,component_supplier
+REC-0564,ORG-E381,Europe,WATER_PROCESSING,component_supplier
+REC-0565,ORG-E382,Europe,WATER_PROCESSING,component_supplier
+REC-0566,ORG-E383,Europe,WATER_PROCESSING,component_supplier
+REC-0567,ORG-E384,Europe,CO2_REMOVAL,adjacent_industrial_supplier

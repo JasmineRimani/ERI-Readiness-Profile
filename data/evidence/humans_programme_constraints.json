@@ -1,0 +1,25 @@
+{
+  "id": "HUMANS-USER-2026-09-21",
+  "source_type": "author_provided_project_input_stated_in_the_paper",
+  "date": "2026-09-21",
+  "structure_available_by": "2027-12-31",
+  "sequence": [
+    "structure_available",
+    "equipment_purchase",
+    "integration",
+    "testing"
+  ],
+  "readiness_target": "Q1 2029 with integration and testing completed",
+  "exact_deadline": null,
+  "cost_scope": "facility_design_services_and_hardware_excluding_operations",
+  "delivery_confirmation": false,
+  "implementation_note": "Procurement release represented at start of 1 January 2028, after the end-2027 structure target. This is a target, not observed completion.",
+  "unresolved": [
+    "approved test list and durations",
+    "exact date within Q1 2029",
+    "supplier commitments",
+    "configuration-specific cost estimates"
+  ],
+  "cost_scope_updated": "2026-09-22",
+  "cost_scope_source": "author_provided_project_input"
+}
