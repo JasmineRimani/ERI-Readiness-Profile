@@ -28,7 +28,7 @@ def _figures(out, tables):
     caps = tables['capabilities'].copy()
     caps['need_days'] = [(date.fromisoformat(n) - date.fromisoformat(s)).days for n, s in zip(caps.need_window_end, caps.scenario_start_date)]
     caps['need_start_days'] = [(date.fromisoformat(n) - date.fromisoformat(s)).days for n, s in zip(caps.need_window_start, caps.scenario_start_date)]
-    panels = [('HLS_SORTIE', 'open'), ('HLS_SORTIE', 'integrated'), ('HLS_SORTIE', 'distributed'), ('HUMANS', 'integrated'), ('HUMANS', 'distributed')]
+    panels = [('HLS_SORTIE', 'open'), ('HLS_SORTIE', 'integrated'), ('HLS_SORTIE', 'distributed'), ('ANALOGS', 'integrated'), ('ANALOGS', 'distributed')]
 
     # 01 Nominal work schedule per candidate: two duration endpoints, stage colour, shared resources, need date.
     stage_colour = {'design': BLUES[2], 'procure': BLUES[4], 'breadboard': BLUES[6], 'relevant_demo': BLUES[7], 'adapt': BLUES[9],
@@ -63,7 +63,7 @@ def _figures(out, tables):
             g.loc[i, 'label'] = label
         ax.axvline(cap.need_days, color=STATUS['critical'], lw=1.2, zorder=2)
         ax.axvspan(cap.need_start_days, cap.need_days, color=STATUS['critical'], alpha=.1)
-        ax.text(cap.need_days + 8, -0.9, 'Q1 target' if case == 'HUMANS' else 'scenario deadline', color=STATUS['critical'], fontsize=8, va='center')
+        ax.text(cap.need_days + 8, -0.9, 'Q1 target' if case == 'ANALOGS' else 'scenario deadline', color=STATUS['critical'], fontsize=8, va='center')
         ax.set_yticks(range(len(g)), g.label, fontsize=7.8); ax.set_ylim(len(g) - .4, -1.3)
         ax.set_xlim(0, xmax)
         if cap.full_scope_covered:
@@ -85,7 +85,7 @@ def _figures(out, tables):
     fig.tight_layout(rect=(0, .06, 1, .97))
     finish(fig, out / '01_nominal_work_schedule.png', dpi=dpi, note=(
         'Dark lower bar: low-duration endpoint; light upper bar: high-duration endpoint; one slot per shared resource.\n'
-        'HUMANS structure/end-2027 and Q1-2029 target: author inputs. Durations are analyst scenarios; feasible, not optimal.'))
+        'ANALOGS structure/end-2027 and Q1-2029 target: author inputs. Durations are analyst scenarios; feasible, not optimal.'))
 
     # 02 Driver contrasts: fixed factor order, both cases, three consequences.
     effects = tables['driver_effects']
@@ -268,7 +268,7 @@ def report(tables, cfg):
               + ' Exceeding a declared resource reserve triggers an explicit redesign package.',
               'Case-specific maturity determines declared remaining-work stages. Generic TRL9 never removes procurement, adaptation or acceptance.',
               'Hardware loss propagates through declared functional dependencies. Shared air services are a separate loss event; no failure frequency is inferred.',
-              'A shared-service interruption can add restoration cash yet consume existing schedule slack. HUMANS water TRL4→3 stays in the same declared breadboard stage.',
+              'A shared-service interruption can add restoration cash yet consume existing schedule slack. ANALOGS water TRL4→3 stays in the same declared breadboard stage.',
               'The scheduler uses fixed topological priority and one slot per named resource. It is feasible under its assumptions, not a resource schedule optimum.',
               'All numerical duration, recovery, maturity, cash, reserve and start/need-date inputs in this extension are analyst scenarios. Their rankings depend on the chosen ranges.',
               'Work and holding exposure excludes equipment procurement prices and is not whole-programme cost.',

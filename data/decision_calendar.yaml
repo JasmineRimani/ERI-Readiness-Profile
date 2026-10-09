@@ -4,7 +4,7 @@
 # WHAT THIS FILE IS
 #   The decision points that sit on the same time axis as the implementation
 #   roadmaps: ESA Councils at Ministerial Level (subscriptions to optional
-#   programmes) and the HUMANS funding and procurement milestones. The policy
+#   programmes) and the ANALOGS funding and procurement milestones. The policy
 #   layer counts the decision points that fall inside each implementation path
 #   (funding-cycle exposure). A path that crosses a decision depends on renewed
 #   commitment as well as on technical progress.
@@ -21,9 +21,9 @@
 #       author_input_required       only the project team can supply it
 #   - An event with a null date that could fall inside a path makes the
 #     exposure a LOWER BOUND, never zero.
-#   - HUMANS structure, procurement release and readiness window are NOT
+#   - ANALOGS structure, procurement release and readiness window are NOT
 #     repeated here: they live in capability_planning.yaml (source
-#     HUMANS-USER-2026-09-21) and the policy layer reads them from there.
+#     ANALOGS-USER-2026-09-21) and the policy layer reads them from there.
 #   - applies_to is a modelling choice (which decisions govern which case),
 #     flagged analyst_mapping.
 # =============================================================================
@@ -102,8 +102,8 @@ events:
   url: null
   applies_to: [HLS_SORTIE]
   note: The observed intervals between the dated councils above are data; they are not used to predict this date.
-- id: HUMANS-FUNDING
-  body: HUMANS funding decisions (budget commitments, calls, renewals)
+- id: ANALOGS-FUNDING
+  body: ANALOGS funding decisions (budget commitments, calls, renewals)
   place: null
   date_start: null
   date_end: null
@@ -111,10 +111,10 @@ events:
   date_status: author_input_required
   source: Not in the repository
   url: null
-  applies_to: [HUMANS]
+  applies_to: [ANALOGS]
   note: Add one event per decision, with its date and document, when known.
-- id: HUMANS-PROCUREMENT
-  body: HUMANS procurement notices and awards (structure, ECLSS equipment)
+- id: ANALOGS-PROCUREMENT
+  body: ANALOGS procurement notices and awards (structure, ECLSS equipment)
   place: null
   date_start: null
   date_end: null
@@ -122,5 +122,5 @@ events:
   date_status: author_input_required
   source: Not in the repository
   url: null
-  applies_to: [HUMANS]
+  applies_to: [ANALOGS]
   note: Add one event per tender notice and award. These also feed evidence/tender_lead_times.csv.

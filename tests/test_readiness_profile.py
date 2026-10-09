@@ -18,14 +18,14 @@ class ProfileTest(unittest.TestCase):
 
     def test_quarter_target_and_structure_do_not_establish_readiness(self):
         profiles = build_profiles(self.tables)
-        humans = next(p for p in profiles if p['case_id'] == 'HUMANS' and p['candidate'] == 'integrated')
-        self.assertIsNone(humans['scenario_need_date'])
-        self.assertEqual(humans['required_milestone_window'], ['2029-01-01', '2029-03-31'])
-        self.assertEqual(humans['structure_availability_target'], '2027-12-31')
-        self.assertEqual(humans['structure_status'], 'project_target')
-        self.assertEqual(humans['readiness_status'], 'unresolved')
-        self.assertIsNone(humans['evidence_supported_delivery_date'])
-        self.assertIsNone(humans['cost_margin_keur'])
+        analogs = next(p for p in profiles if p['case_id'] == 'ANALOGS' and p['candidate'] == 'integrated')
+        self.assertIsNone(analogs['scenario_need_date'])
+        self.assertEqual(analogs['required_milestone_window'], ['2029-01-01', '2029-03-31'])
+        self.assertEqual(analogs['structure_availability_target'], '2027-12-31')
+        self.assertEqual(analogs['structure_status'], 'project_target')
+        self.assertEqual(analogs['readiness_status'], 'unresolved')
+        self.assertIsNone(analogs['evidence_supported_delivery_date'])
+        self.assertIsNone(analogs['cost_margin_keur'])
         json.dumps(profiles, allow_nan=False)
 
     def test_margin_bounds_reverse_duration_endpoints(self):

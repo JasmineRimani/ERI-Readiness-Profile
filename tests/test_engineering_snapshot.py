@@ -28,14 +28,14 @@ class SnapshotTest(unittest.TestCase):
         self.assertEqual(engineering.source(), 'snapshot')
 
     def test_wet_mass_only_for_the_lander(self):
-        self.assertTrue(self.values.loc[self.values.case_id == 'HUMANS', 'vehicle_wet_kg'].isna().all())
+        self.assertTrue(self.values.loc[self.values.case_id == 'ANALOGS', 'vehicle_wet_kg'].isna().all())
         self.assertTrue(self.values.loc[self.values.case_id == 'HLS_SORTIE', 'vehicle_wet_kg'].notna().all())
 
     def test_changed_recovery_assumption_is_refused(self):
         cfg = load_config()
         cfg['recovery_shortfall'] = cfg['recovery_shortfall'] + 0.05
         with self.assertRaises(ValueError):
-            engineering.technical(None, None, cfg, 'HUMANS', 'integrated', ('water_recovery',))
+            engineering.technical(None, None, cfg, 'ANALOGS', 'integrated', ('water_recovery',))
 
     def test_other_stresses_do_not_change_physical_values(self):
         base, _ = engineering.technical(None, None, self.cfg, 'HLS_SORTIE', 'integrated')

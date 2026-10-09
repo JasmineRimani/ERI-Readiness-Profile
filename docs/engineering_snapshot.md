@@ -15,11 +15,11 @@ The readiness profile starts from an engineering comparison: which hardware each
 
 | Column | Meaning |
 |---|---|
-| `case_id`, `candidate` | `HLS_SORTIE` (open, integrated, distributed) or `HUMANS` (integrated, distributed) |
+| `case_id`, `candidate` | `HLS_SORTIE` (open, integrated, distributed) or `ANALOGS` (integrated, distributed) |
 | `air_recovery`, `water_recovery` | 1 when the declared recovery shortfall (0.10) is applied to the air feedwater credit (reference 0.40) or to the eligible-stream water recovery (reference 0.95) |
 | `water_kg` | Carried or supplied water |
 | `eclss_kg` | Accounted ECLSS package: hardware, tanks and initial supplies (Fig. 1 of the paper) |
-| `vehicle_wet_kg` | Upper-retention lander wet mass; empty for HUMANS |
+| `vehicle_wet_kg` | Upper-retention lander wet mass; empty for ANALOGS |
 | `power_w`, `volume_m3` | Package power and volume |
 
 `allocations.csv` lists the technology allocated to each function of each candidate. `manifest.json` records the recovery assumptions used, the units, the row counts and digests of the generating code and inputs.

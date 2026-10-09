@@ -9,10 +9,10 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.colors import to_rgb
 
-CASES = ('HLS_SORTIE', 'HUMANS')
-NAMES = {'HLS_SORTIE': 'Lander · 4 crew, 4-day sortie', 'HUMANS': 'HUMANS · 2 crew, 14-day campaign'}
-SHORT = {'HLS_SORTIE': 'Lander', 'HUMANS': 'HUMANS'}
-CASE_COLOUR = {'HLS_SORTIE': '#2a78d6', 'HUMANS': '#eb6834'}
+CASES = ('HLS_SORTIE', 'ANALOGS')
+NAMES = {'HLS_SORTIE': 'Lander · 4 crew, 4-day sortie', 'ANALOGS': 'ANALOGS · 2 crew, 14-day campaign'}
+SHORT = {'HLS_SORTIE': 'Lander', 'ANALOGS': 'ANALOGS'}
+CASE_COLOUR = {'HLS_SORTIE': '#2a78d6', 'ANALOGS': '#eb6834'}
 CANDIDATE = {'open': 'Open support', 'integrated': 'Integrated air loop', 'distributed': 'Distributed air chain'}
 CANDIDATE_COLOUR = {'integrated': '#4a3aa7', 'distributed': '#1baf7a', 'open': '#898781',
                     'DEFER_OR_RESTRUCTURE': '#898781'}

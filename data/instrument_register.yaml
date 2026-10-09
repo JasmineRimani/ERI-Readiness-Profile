@@ -136,14 +136,15 @@ instruments:
   minimum_days_status: not_applicable
 - id: GATE-PROTECT
   class: infrastructure
-  name: Protection of a gating milestone (for HUMANS, the structure)
+  name: Protection of a gating milestone (for ANALOGS, the structure)
   basis: null
   basis_status: definitional
   url: null
   minimum_days: null
   minimum_days_status: not_applicable
 national_procurement:
-  HUMANS:
-    contracting_authority: Politecnico di Torino
-    framework: Italian public contracts code (D.Lgs. 36/2023)
-    status: applicability, thresholds and time limits to confirm with the PoliTO procurement office; nothing extracted
+  ANALOGS:
+    contracting_authority: Host institution (identity withheld)
+    country: Country A
+    framework: null
+    status: Country-specific framework withheld for anonymisation; applicability, thresholds and time limits remain unconfirmed with the host procurement office; nothing extracted

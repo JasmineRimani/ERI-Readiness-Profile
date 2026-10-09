@@ -177,7 +177,7 @@ cases:
     money_status: illustrative_constant_kEUR; no procurement price estimate
     correction_cash_reserve_keur: 200
     maximum_decision_days: 120
-  HUMANS:
+  ANALOGS:
     start_date: '2027-01-01'
     start_date_status: analyst_scenario_for_preparatory_work
     need_date: null
@@ -186,12 +186,12 @@ cases:
     - '2029-03-31'
     need_label: Q1 2029; ready with integration and testing completed
     date_status: author_provided_quarter_target_not_confirmed_delivery
-    programme_source: HUMANS-USER-2026-09-21
+    programme_source: ANALOGS-USER-2026-09-21
     structure:
       available_by: '2027-12-31'
       procurement_not_before: '2028-01-01'
       status: project_target
-      source_id: HUMANS-USER-2026-09-21
+      source_id: ANALOGS-USER-2026-09-21
       scope: Structure available by end 2027, then equipment purchase, integration and testing.
       cost_status: structure_cost_outside_development_and_testing_scope
     required_functions:
@@ -331,7 +331,7 @@ cost_scope: development and correction work plus incremental water and holding; 
   not whole-programme cost
 source_interpretation:
 - ESA ACLS reports support a European integrated air-process heritage route. They do not qualify the selected lander
-  or HUMANS configuration.
+  or ANALOGS configuration.
 - An ESA membrane-experiment report supports a European membrane development route. The older UF/RO report supports
   a different process route, not the selected membrane performance.
 - A NASA report on a Sabatier development unit gives a non-European alternative. European high-temperature electrolysis

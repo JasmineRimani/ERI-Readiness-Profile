@@ -63,7 +63,7 @@ templates:
   tender_lead_times:
     file: evidence/tender_lead_times.csv
     holds: Procurement notices and awards with their dates, to replace analyst procurement durations
-    intended_sources: TED award notices; ANAC open data (BDNCP); the HUMANS tenders themselves
+    intended_sources: TED award notices; national procurement open data (authority withheld); the ANALOGS tenders themselves
   expert_elicitation:
     file: evidence/expert_elicitation.csv
     holds: Documented expert ranges for adaptation, qualification and lead times, one row per expert and question

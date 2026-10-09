@@ -2,14 +2,16 @@
 
 Every input is a text file. The study modules read them from this folder; `ERI_TOOLKIT_DATA=/absolute/path` selects a complete alternative copy. Data tables are licensed under CC BY 4.0 ([LICENSE](LICENSE)).
 
+The terrestrial analog case uses the pseudonym `ANALOGS`, and country-specific case/search records use `Country A` and `Country B`. Identifying directory and procurement-authority names are withheld. Numerical inputs and evidence states are preserved; original publications and source citations retain their correct details. See [the release scope and limits](../docs/data_release.md).
+
 ## Scenario inputs
 
 | File | Holds | Read by |
 |---|---|---|
 | `capability_planning.yaml` | Start and need dates, required functions, resource reserves, case maturity scenarios, work profiles, single-slot resource calendars and the six declared stresses of both cases. Every number is marked as an analyst scenario or an author-provided project input | `eri.capability_planning`, `eri.capability_publication`, `eri.policy_layer` |
-| `humans_to_flight.csv` | Proposed HUMANS evidence-transfer register (Table 3 of the paper); every entry is proposed, not demonstrated | `eri.readiness_profile` |
+| `analogs_to_flight.csv` | Proposed ANALOGS evidence-transfer register (Table 3 of the paper); every entry is proposed, not demonstrated | `eri.readiness_profile` |
 | `policy_layer.yaml` | Shortfall rule, evidence-state to action mapping, work-package action classes and the register of empty input tables | `eri.policy_layer` |
-| `decision_calendar.yaml` | Dated funding decisions (ESA Councils at Ministerial Level) with their sources; HUMANS funding dates remain author inputs | `eri.policy_layer` |
+| `decision_calendar.yaml` | Dated funding decisions (ESA Councils at Ministerial Level) with their sources; ANALOGS funding dates remain author inputs | `eri.policy_layer` |
 | `instrument_register.yaml` | Action classes and the programme or legal instruments that implement them (Table 1 of the paper) | `eri.policy_layer` |
 
 ## Engineering snapshot
@@ -24,9 +26,9 @@ Every input is a text file. The study modules read them from this folder; `ERI_T
 | `evidence/capability_sources.json` | Public documents behind the routes and observations, with what each establishes and its access limits |
 | `evidence/capability_observations.csv` | Measurements extracted from the sources, with test context and transfer limits; none is applied to the selected configuration |
 | `evidence/function_capabilities.csv` | Function to capability-key mapping |
-| `evidence/search_log.csv` | Documented searches, including those that found nothing; the basis of the documented-shortfall rule |
+| `evidence/search_log.csv` | Documented searches, including those that found nothing; country labels and identifying directory names are masked, while results and scope limitations are preserved |
 | `evidence/evidence_dates.csv` | Evidence and last-checked dates of catalogue records and routes |
-| `evidence/humans_programme_constraints.json` | Author-provided HUMANS programme inputs (structure by end 2027, readiness in Q1 2029) |
+| `evidence/analogs_programme_constraints.json` | Author-provided ANALOGS programme inputs (structure by end 2027, readiness in Q1 2029) |
 | `evidence/tender_lead_times.csv`, `expert_elicitation.csv`, `technology_materials.csv`, `critical_raw_materials.csv`, `test_services.csv`, `reference_class_programmes.csv` | Empty tables with headers, by design: `policy_layer.yaml` states what each would answer |
 
 ## Ecosystem catalogue

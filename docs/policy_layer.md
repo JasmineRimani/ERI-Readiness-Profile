@@ -38,7 +38,7 @@ needs from it, without estimating anything.
   register, source-title years (labelled `year_in_source_title`), the route source dates and the verification
   retrieval dates.
 - `decision_calendar.yaml`: ESA Councils at Ministerial Level with the dates ESA pages state (reviewed 2026-09-26).
-  The next council after CM25 has no announced date in the pages reviewed. HUMANS funding and procurement dates are
+  The next council after CM25 has no announced date in the pages reviewed. ANALOGS funding and procurement dates are
   placeholders for the author.
 - `instrument_register.yaml`: Directive 2014/24/EU Articles 27, 28, 31 and 40 (text checked 2026-09-26), COM(2007)
   799 on pre-commercial procurement, the ESA GSTP; practice-only instruments are marked `definitional`.
@@ -48,7 +48,7 @@ needs from it, without estimating anything.
 Every essential requirement of both cases is `unknown`, so the first action class is information. The code can now
 record a documented shortfall, but the log holds a single search that qualifies (MIN-02, a European commercial
 cabin-scale CO2 removal unit), and a development route exists for that function, so it stays unknown. Funding-cycle
-exposure is a lower bound for every path: the next ESA council date and the HUMANS funding and procurement dates are
+exposure is a lower bound for every path: the next ESA council date and the ANALOGS funding and procurement dates are
 not in the data.
 
 ## Empty input tables, by design

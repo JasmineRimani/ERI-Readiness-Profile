@@ -88,7 +88,7 @@ def roadmap_figure(out, tables):
               'adapt': 'Configuration adaptation', 'qualify': 'Configuration verification',
               'support': 'Supporting equipment', 'acceptance': 'Integrated acceptance'}
     fig, axes = plt.subplots(2, 1, figsize=(8.2, 9.3))
-    for ax, case, title in zip(axes, ('HUMANS', 'HLS_SORTIE'), ('HUMANS', 'Lunar lander')):
+    for ax, case, title in zip(axes, ('ANALOGS', 'HLS_SORTIE'), ('ANALOGS', 'Lunar lander')):
         rows = tables['work_packages'].query('case_id == @case and candidate == "integrated"').sort_values('start_low')
         cap = tables['capabilities'].query('case_id == @case and candidate == "integrated"').iloc[0]
         ylabels = []
@@ -112,7 +112,7 @@ def roadmap_figure(out, tables):
         need_start, need = [(date.fromisoformat(d) - origin).days for d in (cap.need_window_start, cap.need_window_end)]
         ax.axvspan(need_start, need, color='#9c3f3f', alpha=.10)
         ax.axvline(need, color='#9c3f3f', ls='--', lw=1.2)
-        target = 'Q1 2029: testing complete ' if case == 'HUMANS' else 'Illustrative lander deadline '
+        target = 'Q1 2029: testing complete ' if case == 'ANALOGS' else 'Illustrative lander deadline '
         ax.text(need, .97, target, transform=ax.get_xaxis_transform(),
                 color='#9c3f3f', rotation=90, va='top', ha='right', fontsize=8)
         ax.set_yticks(range(len(ylabels)), ylabels, fontsize=8)
@@ -127,7 +127,7 @@ def roadmap_figure(out, tables):
         ax.grid(axis='x', alpha=.15)
     fig.suptitle('Capability roadmap: technology work, procurement and integration', fontsize=11)
     fig.text(.5, .02, 'Dark bars: low-duration scenario; light bars: high-duration scenario. Vertical ticks: shared-resource use.\n'
-             'HUMANS structure and Q1 target: author-provided constraints. Task durations and resource access: assumptions; delivery unconfirmed.',
+             'ANALOGS structure and Q1 target: author-provided constraints. Task durations and resource access: assumptions; delivery unconfirmed.',
              ha='center', fontsize=7)
     fig.tight_layout(rect=(0, .08, 1, .95))
     fig.savefig(out / '01_capability_roadmap.png', dpi=240, bbox_inches='tight')
@@ -152,7 +152,7 @@ def development_cost_figures(out, tables):
     costs = pd.DataFrame(rows).groupby(['case_id', 'candidate', 'stage'], as_index=False)[['lower_keur', 'upper_keur']].sum()
     costs.to_csv(out / 'development_testing_costs.csv', index=False)
     fig, axes = plt.subplots(1, 2, figsize=(10, 5.8))
-    for ax, case, name in zip(axes, ('HUMANS', 'HLS_SORTIE'), ('HUMANS', 'Lunar lander')):
+    for ax, case, name in zip(axes, ('ANALOGS', 'HLS_SORTIE'), ('ANALOGS', 'Lunar lander')):
         subset = costs.query('case_id == @case and candidate == "integrated"').set_index('stage')
         values = [subset.loc[stage, 'lower_keur'] if stage in subset.index else 0 for stage, _ in groups]
         total = sum(values)
@@ -178,7 +178,7 @@ def development_cost_figures(out, tables):
         ax.barh(i, high, height=.46, color='#dce6ec')
         ax.barh(i, low, height=.46, color='#425b76')
         ax.text(high + 10, i, f'{low:.0f}–{high:.0f}', va='center', fontsize=10)
-        labels.append(f'{"HUMANS" if row.case_id == "HUMANS" else "Lander"} / {row.candidate}')
+        labels.append(f'{"ANALOGS" if row.case_id == "ANALOGS" else "Lander"} / {row.candidate}')
         subtotal = costs.query('case_id == @row.case_id and candidate == @row.candidate')[['lower_keur', 'upper_keur']].sum()
         if not np.allclose(subtotal.to_numpy(), [low, high]):
             raise ValueError('Development/test breakdown does not reconcile with direct work cost')
@@ -195,7 +195,7 @@ def development_cost_figures(out, tables):
     fig.savefig(out / '03_development_testing_comparison.png', dpi=240, bbox_inches='tight')
     plt.close(fig)
     fig, axes = plt.subplots(1, 2, figsize=(10, 4.5))
-    for ax, case, name in zip(axes, ('HUMANS', 'HLS_SORTIE'), ('HUMANS', 'Lunar lander')):
+    for ax, case, name in zip(axes, ('ANALOGS', 'HLS_SORTIE'), ('ANALOGS', 'Lunar lander')):
         grid = tables['sensitivity_scenarios'].query('case_id == @case')
         for bound, marker, label in [('low', 'o', 'Short duration / later deadline'), ('high', '^', 'Long duration / earlier deadline')]:
             ax.scatter(grid['work_cost_keur_' + bound], grid['schedule_margin_days_' + bound],
@@ -208,7 +208,7 @@ def development_cost_figures(out, tables):
         ax.spines[['top', 'right']].set_visible(False)
     axes[0].legend(fontsize=7, loc='best')
     fig.suptitle('Development/testing cost and time consequences', fontsize=13)
-    fig.text(.5, .015, 'HUMANS margins span the Q1 2029 target window; lander uses one illustrative deadline. Scenarios have no assigned probabilities.',
+    fig.text(.5, .015, 'ANALOGS margins span the Q1 2029 target window; lander uses one illustrative deadline. Scenarios have no assigned probabilities.',
              ha='center', fontsize=8)
     fig.tight_layout(rect=(0, .06, 1, .95))
     fig.savefig(out / '04_development_cost_schedule.png', dpi=240, bbox_inches='tight')
@@ -223,7 +223,7 @@ def schedule_stress_figure(out, tables):
                ('supplier_delay', 'Supplier delay'), ('shared_service', 'Shared-service interruption')]
     fig, axes = plt.subplots(1, 2, figsize=(11, 5.4), sharey=True)
     exported = []
-    for ax, case, title in zip(axes, ['HUMANS', 'HLS_SORTIE'], ['HUMANS', 'Lunar lander']):
+    for ax, case, title in zip(axes, ['ANALOGS', 'HLS_SORTIE'], ['ANALOGS', 'Lunar lander']):
         grid = tables['sensitivity_scenarios'].query('case_id == @case').copy()
         flags = [name for name, _ in factors]
         selected = [('Reference', grid.loc[grid[flags].sum(axis=1) == 0].iloc[0])]
@@ -243,7 +243,7 @@ def schedule_stress_figure(out, tables):
         ax.spines[['top', 'right']].set_visible(False)
     axes[0].invert_yaxis()
     fig.suptitle('Schedule consequences of the declared stresses', fontsize=14)
-    fig.text(.5,.025,'Ranges combine the stated duration endpoints; HUMANS also spans the Q1 2029 target window.\n'
+    fig.text(.5,.025,'Ranges combine the stated duration endpoints; ANALOGS also spans the Q1 2029 target window.\n'
              'Lander deadline and task durations remain illustrative. Negative values indicate lateness to the evaluated boundary.',
              ha='center',fontsize=8)
     fig.tight_layout(rect=(0,.12,1,.94))
@@ -270,7 +270,7 @@ def export(out='outputs/readiness_profile'):
     pd.DataFrame(summary).to_csv(out / 'summary.csv', index=False)
     for key in ('technology_gaps', 'work_packages', 'dependency_losses', 'supplier_routes'):
         tables[key].to_csv(out / (key + '.csv'), index=False)
-    (out / 'humans_to_flight.csv').write_bytes((DATA / 'humans_to_flight.csv').read_bytes())
+    (out / 'analogs_to_flight.csv').write_bytes((DATA / 'analogs_to_flight.csv').read_bytes())
     roadmap_figure(out, tables)
     development_cost_figures(out, tables)
     schedule_stress_figure(out, tables)
@@ -288,14 +288,14 @@ def export(out='outputs/readiness_profile'):
             cost, margin = p['scenario_work_cost_keur'], p['scenario_schedule_margin_days']
             show = lambda x: 'unknown' if any(v is None for v in x) else f'{x[0]:g} to {x[1]:g}'
             lines.append(f"| {p['case_id']} / {p['candidate']} | {show(cost)} | {show(margin)} | Delivery / acceptance unresolved |")
-    lines += ['', 'HUMANS: structure targeted for end 2027; procurement starts no earlier than January 2028; integration/testing complete in Q1 2029.',
+    lines += ['', 'ANALOGS: structure targeted for end 2027; procurement starts no earlier than January 2028; integration/testing complete in Q1 2029.',
               'The exact Q1 deadline is unresolved. Margin bounds combine the earlier/later quarter endpoints with longer/shorter task durations.',
               'Positive schedule margin means the declared work scenario finishes before the evaluated milestone boundary. It does not confirm delivery.',
               'Cost margin remains unknown because an approved budget for the same work scope is unavailable. Correction reserves are not a nominal-work budget.',
               'Work costs and programme procurement/lifecycle estimates have overlapping integration scope; they must not be added without reconciliation.', '',
-              'The HUMANS-to-flight register lists proposed evidence to obtain, not completed tests or demonstrated flight capability.', '',
+              'The ANALOGS-to-flight register lists proposed evidence to obtain, not completed tests or demonstrated flight capability.', '',
               '- [Complete profiles](profiles.json)', '- [Summary table](summary.csv)',
-              '- [Capability roadmap](01_capability_roadmap.png)', '- [Proposed HUMANS-to-flight evidence](humans_to_flight.csv)',
+              '- [Capability roadmap](01_capability_roadmap.png)', '- [Proposed ANALOGS-to-flight evidence](analogs_to_flight.csv)',
               '- [Development and testing costs](development_testing_costs.csv)',
               '- [Supply requirements](technology_gaps.csv)', '- [Work packages](work_packages.csv)',
               '- [Structural dependencies](dependency_losses.csv)', '- [Method](../../docs/readiness_profile.md)', '',
@@ -305,7 +305,7 @@ def export(out='outputs/readiness_profile'):
     html += '<style>body{font:16px/1.5 system-ui;max-width:1200px;margin:2em auto;padding:1em}img{width:100%}pre{white-space:pre-wrap}</style>'
     html += '<h1>Ecosystem-readiness profiles</h1><p>Architecture, ecosystem and milestone; conditional figures of merit with explicit evidence gaps.</p>'
     html += '<p><a href="README.md">Tables and method</a> · <a href="profiles.json">Complete profiles</a></p>'
-    html += '<img src="01_capability_roadmap.png" alt="Capability work roadmap for HUMANS and the lunar lander">'
+    html += '<img src="01_capability_roadmap.png" alt="Capability work roadmap for ANALOGS and the lunar lander">'
     html += '<pre>' + escape('\n'.join(lines)) + '</pre></html>'
     (out / 'index.html').write_text(html)
     write_manifest(out, dict(schema_version=1, status='readiness_profile_no_scalar_aggregation',

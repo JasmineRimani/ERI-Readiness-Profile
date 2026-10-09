@@ -16,7 +16,7 @@ LOG_COLUMNS = ['search_id', 'search_date', 'search_date_status', 'search_type', 
 
 
 def gap(function='co2_removal', technology='T-X', eu='no_route_found_in_reviewed_scope', confirmed=0):
-    return pd.DataFrame([dict(case_id='HUMANS', candidate='integrated', function=function, technology_id=technology,
+    return pd.DataFrame([dict(case_id='ANALOGS', candidate='integrated', function=function, technology_id=technology,
                               essential=True, european_route_status=eu, confirmed_european_delivery_routes=confirmed,
                               worldwide_alternative_status='no_route_found_in_reviewed_scope')])
 
@@ -77,7 +77,7 @@ class RuleTest(unittest.TestCase):
         self.assertIn('stays unknown', row.state_note)
 
     def test_search_outside_the_pool_does_not_count(self):
-        row = self.state(gap(), search(region='Italy;Luxembourg'))
+        row = self.state(gap(), search(region='Country A;Country B'))
         self.assertEqual(row.evidence_state, 'unknown')
 
     def test_confirmed_delivery_is_supported_and_needs_no_action(self):
@@ -86,18 +86,18 @@ class RuleTest(unittest.TestCase):
         self.assertEqual(row.action_class, '')
 
     def test_missing_calendar_date_gives_a_lower_bound(self):
-        caps = pd.DataFrame([dict(case_id='HUMANS', candidate='integrated', scenario_start_date='2027-01-01',
+        caps = pd.DataFrame([dict(case_id='ANALOGS', candidate='integrated', scenario_start_date='2027-01-01',
                                   available_date_low='2028-05-13', available_date_high='2029-02-20')])
-        cal = {'events': [dict(id='X', applies_to=['HUMANS'], date_start=None, date_end=None, year=None,
+        cal = {'events': [dict(id='X', applies_to=['ANALOGS'], date_start=None, date_end=None, year=None,
                                date_status='author_input_required')]}
         e = funding_cycle_exposure(caps, cal).iloc[0]
         self.assertEqual(e.exposure_status, 'lower_bound_only')
         self.assertEqual(e.decisions_in_window_high, 0)
 
     def test_dated_decision_inside_the_path_is_counted(self):
-        caps = pd.DataFrame([dict(case_id='HUMANS', candidate='integrated', scenario_start_date='2027-01-01',
+        caps = pd.DataFrame([dict(case_id='ANALOGS', candidate='integrated', scenario_start_date='2027-01-01',
                                   available_date_low='2028-05-13', available_date_high='2029-02-20')])
-        cal = {'events': [dict(id='D', applies_to=['HUMANS'], date_start='2028-11-01', date_end='2028-11-02',
+        cal = {'events': [dict(id='D', applies_to=['ANALOGS'], date_start='2028-11-01', date_end='2028-11-02',
                                year=2028, date_status='stated_in_source')]}
         e = funding_cycle_exposure(caps, cal).iloc[0]
         self.assertEqual((e.decisions_in_window_low, e.decisions_in_window_high), (0, 1))
@@ -109,11 +109,11 @@ class CurrentProfileTest(unittest.TestCase):
     def setUpClass(cls):
         cls.tables = study()
 
-    def test_humans_requirements_are_unknown_and_call_for_information(self):
+    def test_analogs_requirements_are_unknown_and_call_for_information(self):
         r = classify_gaps(self.tables['technology_gaps'], load_search_log(), load_rules(), load_instruments())
-        humans = r[(r.case_id == 'HUMANS') & (r.pool == 'Europe') & (r.essential.astype(str) == 'True')]
-        self.assertEqual(set(humans.evidence_state), {'unknown'})
-        self.assertEqual(set(humans.action_class), {'information'})
+        analogs = r[(r.case_id == 'ANALOGS') & (r.pool == 'Europe') & (r.essential.astype(str) == 'True')]
+        self.assertEqual(set(analogs.evidence_state), {'unknown'})
+        self.assertEqual(set(analogs.action_class), {'information'})
 
     def test_every_work_package_has_a_class_and_the_structure_is_infrastructure(self):
         w = tag_work(self.tables['work_packages'], load_rules())

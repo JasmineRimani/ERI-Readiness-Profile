@@ -4,7 +4,7 @@ The profile and the decision model have different roles. The profile records req
 
 The methodological basis is [Kaelbling, Littman and Cassandra (1998), Artificial Intelligence 101, 99-134](https://doi.org/10.1016/S0004-3702(98)00023-X).
 
-| Component | Possible HUMANS interpretation | Evidence still needed |
+| Component | Possible ANALOGS interpretation | Evidence still needed |
 |---|---|---|
 | Hidden state | Selected-unit performance, interface suitability, delivery and test-access conditions | Configuration-specific assessments; dependency and correlation structure |
 | Known decision state | Date, remaining money, completed tasks and observed structure availability | Current programme records |

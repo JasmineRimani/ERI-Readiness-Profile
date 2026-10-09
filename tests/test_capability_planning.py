@@ -84,8 +84,8 @@ class CapabilityTest(unittest.TestCase):
         self.assertIsNone(unknown['duration_days_high'])
         self.assertEqual(unknown['planning_status'], 'unresolved_remaining_work')
 
-    def test_humans_procurement_waits_for_structure_even_with_mature_equipment(self):
-        row, jobs, _ = assess_candidate(self.inp, self.arch, self.cfg, 'HUMANS', 'integrated',
+    def test_analogs_procurement_waits_for_structure_even_with_mature_equipment(self):
+        row, jobs, _ = assess_candidate(self.inp, self.arch, self.cfg, 'ANALOGS', 'integrated',
                                         trl_override={'air': 9, 'water': 9})
         gate = jobs['01_structure_available']
         self.assertEqual(gate['finish_low'], 365)
@@ -98,15 +98,15 @@ class CapabilityTest(unittest.TestCase):
 
     def test_unknown_structure_release_blocks_completion_without_inventing_a_date(self):
         cfg = deepcopy(self.cfg)
-        cfg['cases']['HUMANS']['structure']['procurement_not_before'] = None
-        row, jobs, _ = assess_candidate(self.inp, self.arch, cfg, 'HUMANS', 'integrated')
+        cfg['cases']['ANALOGS']['structure']['procurement_not_before'] = None
+        row, jobs, _ = assess_candidate(self.inp, self.arch, cfg, 'ANALOGS', 'integrated')
         self.assertIsNone(row['available_date_low'])
         self.assertIsNone(row['schedule_margin_days_high'])
         self.assertEqual(jobs['00_design']['finish_low'], 10)
         self.assertIsNone(jobs['support_equipment']['start_low'])
 
     def test_quarter_margin_reports_both_boundaries(self):
-        row, _, _ = assess_candidate(self.inp, self.arch, self.cfg, 'HUMANS', 'integrated')
+        row, _, _ = assess_candidate(self.inp, self.arch, self.cfg, 'ANALOGS', 'integrated')
         self.assertEqual(row['schedule_margin_days_high'], row['margin_to_window_start_days_high'])
         self.assertEqual(row['schedule_margin_days_low'], row['margin_to_window_end_days_low'])
         self.assertEqual(row['margin_to_window_end_days_high'] - row['margin_to_window_start_days_high'], 89)

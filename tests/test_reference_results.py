@@ -12,12 +12,12 @@ from eri.readiness_profile import build_profiles
 TABLE_2 = {
     ('HLS_SORTIE', 'integrated'): ((270, 810), (115, 345), (-445, 95)),
     ('HLS_SORTIE', 'distributed'): ((300, 900), (175, 525), (-535, 65)),
-    ('HUMANS', 'integrated'): ((498, 781), (165, 495), (-50, 322)),
-    ('HUMANS', 'distributed'): ((538, 901), (265, 795), (-170, 282)),
+    ('ANALOGS', 'integrated'): ((498, 781), (165, 495), (-50, 322)),
+    ('ANALOGS', 'distributed'): ((538, 901), (265, 795), (-170, 282)),
 }
 # Fig. 1: accounted ECLSS package mass [kg]; lander upper-retention wet mass [t].
 FIG_1_MASS = {('HLS_SORTIE', 'open'): 614, ('HLS_SORTIE', 'integrated'): 1530, ('HLS_SORTIE', 'distributed'): 953,
-              ('HUMANS', 'integrated'): 1127, ('HUMANS', 'distributed'): 763}
+              ('ANALOGS', 'integrated'): 1127, ('ANALOGS', 'distributed'): 763}
 FIG_1_WET_T = {'open': 33.73, 'integrated': 40.09, 'distributed': 35.80}
 
 
@@ -37,8 +37,8 @@ class ReferenceResultsTest(unittest.TestCase):
     def test_open_lander_is_a_reference_only(self):
         self.assertEqual(self.profiles[('HLS_SORTIE', 'open')]['functional_scope'], 'reference_outside_regenerative_scope')
 
-    def test_humans_integrated_completion_window(self):
-        row = self.tables['capabilities'].query("case_id == 'HUMANS' and candidate == 'integrated'").iloc[0]
+    def test_analogs_integrated_completion_window(self):
+        row = self.tables['capabilities'].query("case_id == 'ANALOGS' and candidate == 'integrated'").iloc[0]
         self.assertEqual((row.available_date_low, row.available_date_high), ('2028-05-13', '2029-02-20'))
 
     def test_figure_1_masses_from_the_snapshot(self):
@@ -53,7 +53,7 @@ class ReferenceResultsTest(unittest.TestCase):
         grid = self.tables['sensitivity_scenarios']
         flags = ['air_recovery', 'water_recovery', 'air_maturity', 'water_maturity', 'supplier_delay', 'shared_service']
         worst = grid[grid[flags].sum(axis=1) == len(flags)].set_index('case_id')
-        self.assertEqual((worst.loc['HUMANS', 'schedule_margin_days_high'], worst.loc['HUMANS', 'schedule_margin_days_low']), (-320, 232))
+        self.assertEqual((worst.loc['ANALOGS', 'schedule_margin_days_high'], worst.loc['ANALOGS', 'schedule_margin_days_low']), (-320, 232))
         self.assertEqual((worst.loc['HLS_SORTIE', 'schedule_margin_days_high'], worst.loc['HLS_SORTIE', 'schedule_margin_days_low']), (-1405, -235))
 
 
